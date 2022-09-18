@@ -1,0 +1,1277 @@
+What's the matter? what is her name?;;
+And what is her age? 6 years;;age:6 years
+what's the matter with her?
+She has a fever;;Sign or Symptom:fever
+cold and cough;;Sign or Symptom:cough,Disease or Syndrome:cold
+Well, what's the matter with her? She has a fever, cold and cough;;Sign or Symptom:cough,Sign or Symptom:fever,Disease or Syndrome:cold
+And there is also a cough? her Nose burns;;
+And since when is the fever? Fever has been up since tonight;;duration:tonight,Sign or Symptom:fever
+Isn't urinating frequently? Urinated once or twice;;frequency:one or twice
+it is not that much
+is she complaining about sore throat?;;
+lighten her cloths
+it is not that much and is she complaining about sore throat? Well, lighten her cloths;;
+And her throat seems sore also okay i'll give her medicines;;Body Location or Region:throat,Sign or Symptom:sore
+What's her name? And how old is she?;;
+she is having severe flu;;Disease or Syndrome:flu
+due to which also having problem with breathing;;Finding:problem breathing
+What is the problem? she is having severe flu, due to which also having problem with breathing;;Finding:problem breathing, Disease or Syndrome:flu
+Problem with breathing too? And also fever?;;
+Fever is also a little bit;;Sign or Symptom:fever
+And since when? fever has been there for 2 or 3 days;;Sign or Symptom:fever,duration:2 or 3 days
+she's just vomiting;;Sign or Symptom:vomiting
+And is she vomiting along with cough? No, she's just vomiting;;Sign or Symptom:vomiting
+she has severe flu;;Disease or Syndrome:flu
+its okay I am giving her medicines she will be fine
+what is his name? XXXX;;name:XXXX
+what is wrong with him?
+How old is he? Well, what is wrong with him?;;
+Since when he has cough? Have he had a fever?;;
+fever is mild;;Sign or Symptom:fever
+okay fever is mild;;Sign or Symptom:fever
+what about a sore throat?;;
+okay fever is mild and what about a sore throat? Does he have a cold?
+okay I’ll write him some medicines he will be fine Inshallah
+What's his name? And how old is he?;;
+he has a fever;;Sign or Symptom:fever
+the fever gets worse;;Sign or Symptom:fever
+What happened to him? he has a fever and the fever gets worse;;Sign or Symptom:fever
+yes there is pain in the throat;;Sign or Symptom:pain,Body Location or Region: throat
+he feels very cold;;Natural Phenomenon or Process:cold
+Feeling cold? yes there is pain in the throat and he feels very cold;;Natural Phenomenon or Process:cold,Sign or Symptom:pain, Body Location or Region:thraot
+Comes down
+then goes up again
+The fever goes down or it stays like this? Comes down and then goes up again;;Sign or Symptom:fever
+Sore throat? Yes;;Disease or Syndrome:sore throat
+okay there is also cough;;Sign or Symptom:cough
+he might have body aches too?;;
+Sore throat too? okay there is also cough, he might have body aches too?;;Sign or Symptom:cough
+yes he trembles;;Sign or Symptom:trembles
+Come here do you feel pain here
+Open your mouth
+his throat is sore;;Sign or Symptom:sore, Body Location or Region:throat
+Come here do you feel pain here, Open your mouth, his throat is sore;;Sign or Symptom:sore, Body Location or Region:throat
+its okay I am writing him medicines he will be fine
+What's his name? XXXX;;name:XXXX
+How old is he? What's the matter?
+He has cough;;Sign or Symptom:cough
+runny nose;;Sign or Symptom:runny nose
+fever and pain all over his body He also has knee pain;;Sign or Symptom:fever,Sign or Symptom:knee pain
+pain all over his body He also has knee pain;;Sign or Symptom:knee pain
+He has cough , runny nose, fever and pain all over his body He also has knee pain;;Sign or Symptom:cough,Sign or Symptom:fever,Sign or Symptom:runny nose,Sign or Symptom:knee pain
+It's been 2 or 3 days;;duration:2 or 3 days
+Since when? It's been 2 or 3 days, doctor;;duration:2 or 3 days
+it is accompanied by fever and cough is very severe;;Sign or Symptom:fever,Sign or Symptom:cough
+it is accompanied by fever;;Sign or Symptom:fever
+cough is very severe;;Sign or Symptom:cough
+Knee pain is accompanied by fever or already? No, it is accompanied by fever and cough is very severe;;symptoms:knee pain,Sign or Symptom:fever,Sign or Symptom:cough
+Look up baby he has sore throat I'll give you medicine;;Sign or Symptom:sore throat
+it will be fine
+Look up baby he has sore throat I'll give you medicine, Insha'Allah, it will be fine;;Sign or Symptom:sore throat
+He is drinking too much water;;
+Does he drink too much water now that he is ill? Yes;;
+When the throat is bad;;Body Location or Region:throat,Health Care Activity:bad 
+he feels thirsty because it causes dehydration;;Disease or Syndrome:dehydration
+When the throat is bad, he feels thirsty because it causes dehydration;;Disease or Syndrome:dehydration, Health Care Activity:bad, Body Location or Region:throat
+no need to worry I am giving him medicines he will be fine
+What is the baby's name? XXXX;;name:XXXX
+How old is he? What's wrong with him?
+Since when is he having motion;;symptoms:motion
+Since when is he having motion and vomiting? And he also has a fever;;Sign or Symptom:fever,symptoms:motion,Sign or Symptom:vomiting
+Yesterday evening
+Since when? Yesterday, Yesterday evening;;duration:yesterday evening
+How much is his diarrhea since yesterday? Two or 3 times;;Sign or Symptom:diarrhea,frequecy:two or 3 times
+Is there watery stool?
+Two or 3 times? , Is there watery stool?
+And vomiting? yes he has done it 2 or 3 times;;Sign or Symptom:vomiting,frequency:2 or 3 times
+he does what he eats
+Vomiting profusely? No, he does what he eats
+Does he have a fever? Yes;;Sign or Symptom:fever
+And he was playing today so he got a foot injury;;Injury or Poisoning:foot injury
+it has just been done here
+they have given him burofen;;Pharmacological Substance:burofen
+Did you get this bandage from here or from home? it has just been done here and they have given him burofen;;Pharmacological Substance:burofen
+show me your tongue kid
+he is very dehydrated;;Disease or Syndrome:dehydrated
+he can take calpol?;;
+show me your tongue kid, he is very dehydrated , he can take calpol? I am giving him other medicines give him these too;;Disease or Syndrome:dehydrated,Pharmacological Substance:calpol
+What is his name? XXXX;;name:XXXX
+How old is he? On the 10th of 11th month he will be 3 years old;;age:3 years old
+3 year
+what's wrong with him?
+ok, 3 year, what's wrong with him? There is a problem in his stomach due to that he is having fever She has fever;;Body Part_ Organ_ or Organ Component:stomach,Sign or Symptom:fever
+he has a fever;;Sign or Symptom:fever
+stomach ache?
+he has a fever and stomach ache? yes;;Sign or Symptom:fever,Body Part:stomach
+Since when is there a fever? It has just happened;;duration:just happened
+It's been an hour
+Isn't there a cough? No cough;;
+And is he complaining about sore throat? Fahad do you have a sore throat?;;
+there is no sore throat?;;
+is there any Sore throat? No, there is no sore throat?;;
+The fever is getting a little bit better;;Sign or Symptom:fever
+you have to lighten his clothes a little so that the fever subsides;;Sign or Symptom:fever
+Coughing? The fever is getting a little bit better, you have to lighten his clothes a little so that the fever subsides;;Sign or Symptom:fever
+rest his clothes are to be lightened
+and I will give him medicines he will be fine
+rest his clothes are to be lightened, and I will give him medicines he will be fine
+What is his name? XXXX;;name:XXXX
+And how old is he? 1 year;;age:1 year
+What is his issue? He has fever;;Sign or Symptom:fever
+Since when is the fever? he has had a fever since last night;;Sign or Symptom:fever,duration:last night
+And besides that? he has fiber;;symptoms:fiber
+there is no cough;;
+Does he have a cough? No, there is no cough
+He was having difficulty in breathing when he was asleep at night;;Sign or Symptom:difficulty breathing
+not from a few days;;duration:few days
+Is he taking milk properly? No, not from a few days
+he has high fever so I am giving him a shot;;Sign or Symptom:fever
+Well, he has high fever so I am giving him a shot;;Sign or Symptom:fever
+what is his name? XXXX;;name:XXXX
+And how old is he? 16 years;;age:16 years
+What happened? I have pain in my neck;;Sign or Symptom:pain, Body Location or Region:neck
+Where? here
+Since when? It happened today;;duration:today
+this is due to sleeping in the wrong posture
+and because you used a high pillow
+this is due to sleeping in the wrong posture , and because you used a high pillow
+Does it hurt to move your shoulder right left? yes It hurts a lot
+Have you taken medicine before? no not taken
+Let me give you medicines
+You will be fine
+What is his name? XXXX;;name:XXXX
+And how old is he? 4 years;;age:4 years
+what happened to him?
+he has fever;;Sign or Symptom:fever
+also some serious cough;;Sign or Symptom:cough
+Ok, what happened to him? he has fever and also some serious cough;;Sign or Symptom:fever,Sign or Symptom:cough
+so he has fever and cough?;;
+so he has fever;;Sign or Symptom:fever
+ok, so he has fever and cough? For how long?;;
+From almost 2 days;;duration:2 days
+Did you gave him any medicine or not? No
+Did he catch a cold or has fever from some other reason? ;;Disease or Syndrome:cold,Sign or Symptom:fever
+not any particular reason
+no, not any particular reason
+he does not have a sore throat;;Sign or Symptom:sore throat
+And does he have a sore throat? No , he does not have a sore throat
+He only has cough;;Sign or Symptom:cough
+open your mouth
+Sit, open your mouth
+Ok. His tonsils are quite huge;;Body Part_ Organ_ or Organ Component:tosils
+swollen ,does he eat alot of stuff from the market?
+he does eats alot
+Ok. His tonsils are quite huge and swollen ,does he eat alot of stuff from the market? yes, he does eats alot;;Body Part_ Organ_ or Organ Component:tonsils
+Please refrain him from eating stuff from the market ,i will give him medicine
+he will feel better
+Please refrain him from eating stuff from the market ,i will give him medicine and he will feel better
+All you have to do is control his diet
+What is his name? His name is XXXX;;name:XXXX
+And what's his age? 10-year;;age:10 year
+So what's the issue? He has fever;;Sign or Symptom:fever
+He has fever;;Sign or Symptom:fever
+Since when? From the last 5 days;;duration:5 days
+Did he catch the fever due to the cold weather? Yes;;Sign or Symptom:fever
+Is there any other reason he caught the fever? No particular reason;;Sign or Symptom:fever
+He suddenly caught it
+Does he has pain in his throat? If there is any other issue you can tell it yourself?
+i have severe cough;;Sign or Symptom:cough
+i have severe cough and flu;;Sign or Symptom:cough,Disease or Syndrome:flu
+Do you have fibrous cough? yes;;Sign or Symptom:cough
+Did it started with the fever? first i got the cough then got the fever;;Sign or Symptom:cough,Sign or Symptom:fever
+look up and open your mouth
+look up
+open your mouth
+Ok, look up and open your mouth
+Do you have pain in your throat? Do you eat alot of stuff from the outside?;;
+You have a sore throat I will give you medicine;;Sign or Symptom:sore throath
+you'll feel better
+You have a sore throat I will give you medicine and you'll feel better;;Sign or Symptom:sore throat
+So what's his name? XXXX;;name:XXXX
+And what is her age? She's 1 and_a_half year old;;age:1 and_a_half year
+what's the issue?
+she has flu;;Disease or Syndrome:flu
+and from 2 to 3 days she has loose motion;;duration:2 to 3 days,Sign or Symptom:loose motion
+So, what's the issue? she has flu, and from 2 to 3 days she has loose motion;;Disease or Syndrome:flu,Sign or Symptom:loose motion,duration:2 to 3 days
+Did the motion stop? her motions are in control but she has severe flu;;Disease or Syndrome:flu,Natural Phenomenon or Process:motion
+And does she also have fever? no
+Ok show me her throat
+Ok let me take a look
+I'll check her
+give her some medicine
+I'll check her and give her some medicine
+She'll feel better
+So what's his name? XXXX;;name:XXXX
+And what is is his age? He is 1 and_a_half years old;;age:1 and_a_half year
+What happened to him? He got stung by a wasp;;
+The 1 that has yellowish colour? yes
+When did he got stung? yesterday;;duration:yesterday
+Did he got stung bye by 1 or multiple wasps? Yes only one
+And did you give him any medicine? No i only applied vicks
+Ok so now he has gotten an infection;;Disease or Syndrome:infection
+also has swelling;;Finding:swelling
+Ok so now he has gotten an infection and also has swelling;;Finding:swelling,Disease or Syndrome:infection
+he also vomited alot;;Sign or Symptom:vomited
+Did he vomited after he got stung by the wasp? Yes it happened today;;Sign or Symptom:vomited
+yes he is a bit tired
+weak since then
+And is he feeling physically weak? yes he is a bit tired and weak since then
+And does he have an issue breathing
+no he does not have an issue breathing
+Is there any other issue? does it itch or not?
+Ok i will give him an injection he will be better then take some medicine;;Therapeutic or Preventive Procedure:injection
+What is name? XXXX;;name:XXXX
+And what is age? He is 5 months old;;age:5 month
+He has severe cough;;Sign or Symptom:cough
+So what is the issue with him? He has severe cough and flu;;Sign or Symptom:cough,Disease or Syndrome:flu
+Since when? Did you give him any medicine?
+he is feeding alright
+Is he feeding alright? Yes, he is feeding alright;;Health Care Activity:feeding
+i'll give him some medicine He'll feel better ok
+Ok, i'll give him some medicine He'll feel better ok
+What's her name? XXXX;;name:XXXX
+And what's her age? She is 9 years old;;age:9 years
+she has severe pain in her stomach;;Finding:severe pain, Body Part_ Organ_ or Organ Component:stomach
+also have motions;;Natural Phenomenon or Process:motions
+so what's the issue with her? she has severe pain in her stomach and also have motions and vomiting;;Finding: severe pain,Body Part_ Organ_ or Organ Component:stomach,Sign or Symptom:vomiting
+Does her motion;;Natural Phenomenon or Process:motion
+vomiting contains blood?
+Does her motion and vomiting contains blood? No only in her vomiting;;Sign or Symptom:vomiting
+Of what type? It's in solid form
+Come here
+look up And how many time did she go to the washroom since morning
+And it doesn't come in the motion? Come here, sit , look up And how many time did she go to the washroom since morning
+About 6 to 7 times;;frequency:6 to 7 times
+like water ? yes
+What is her name? XXXX;;name:XXXX
+And what is her age? 12 years;;age:12 years
+what's the issue?
+patient model the issue is this that he has abscess;;Disease or Syndrome:abscess
+they are 3 to 4 at a lot of similar places
+So, what's the issue? patient model the issue is this that he has abscess and they are 3 to 4 at a lot of similar places;;Disease or Syndrome:abscess
+Off what type? That ones that contain pus?
+yes they are also called ghaun
+they usually appear near joints
+yes they are also called ghaun and they usually appear near joints
+and here under his arm
+Does she also have fever? yes;;Sign or Symptom:fever
+she is burning up;;Sign or Symptom:burning
+Does she have any in the front that i can take a look at? no
+Ok. And how long does she had them? from last 2 to 3 months;;duration:last 2 to 3 months
+She cannot even eat properly when she has a severe fever;;Sign or Symptom:fever
+let me take a look
+Ok, let me take a look
+I will give her some medicine she will be fine
+What is his name? XXXX;;name:XXXX
+And what is his age? 14 years;;age:14 years
+so what is the issue?
+last night he had a severe fever;;Sign or Symptom:fever
+he also kept on shivering;;Finding:shivering
+ok, so what is the issue? last night he had a severe fever and he also kept on shivering;;Sign or Symptom:fever,Finding:shivering
+Ok i'll take a look
+he also had vomiting throughout the night;;Sign or Symptom:vomiting
+Come here a minute
+show me your throat?
+Come here a minute, show me your throat? Does it hurt?
+Does your throat hurt? no
+Do you have fibrous cough? yes;;Sign or Symptom:cough
+I will take a look he has chest congestion i will give him some medicine he will feel better;;Disease or Syndrome:chest congestion
+what's his name?;;
+So, what's his name? And how old is he?;;
+He has fever;;Sign or Symptom:fever
+last night he had a fever off 104;;Sign or Symptom:fever
+So what is the issue? He has fever and cough and last night he had a fever off 104;;Sign or Symptom:fever,Sign or Symptom:cough
+Ok he has fever;;Sign or Symptom:fever
+Ok he has fever and cough;;Sign or Symptom:fever,Sign or Symptom:cough
+When did you take these medicines? Almost at 2 o clock today his fever has gone high since then;;Sign or Symptom:fever
+Didn't it subsides? No
+I will let you know
+we might have to get him
+we might have to get him and injection;;Therapeutic or Preventive Procedure:injection
+What is her name? Her name is XXXX;;name:XXXX
+And how old is he? What's the issue?;;
+She has stomach ache;;Sign or Symptom:stomach ache
+so she has stomach ache where exactly?;;
+Ok, so she has stomach ache where exactly? Where do you have the pain?;;
+On this left side? Is she urinating frequently?
+And does it burn when you urinate? She is also not having enough water
+Does she have a fever? Look up does it hurt when i press your stomach?;;
+Ok. Well
+he looks fine
+but i will give her some medicines
+Ok. Well, he looks fine, but i will give her some medicines
+And also writing 1 or 2 tests get these done
+then come see me
+And also writing 1 or 2 tests get these done and then come see me
+So what's his name? XXXX;;name:XXXX
+And how old is he? He is 12 years old;;age:12 years
+He has a high fever;;Sign or Symptom:fever
+a swear cough;;Sign or Symptom:cough
+What's the issue? He has a high fever and a swear cough;;Sign or Symptom:high fever,Sign or Symptom:cough
+Since when? Did he got the fever due to cold?;;
+Can't say for sure
+doctor ok.
+does he have a sore throat?
+doctor ok. and does he have a sore throat? A little;;Sign or Symptom:sore throat
+He doesn't have any cough;;
+but only has pain in the throat;;Sign or Symptom:pain,Body Location or Region:throat
+Does he also cough? He doesn't have any cough, but only has pain in the throat;;Sign or Symptom:pain,Body Location or Region:throat
+He has a sore throat;;Sign or Symptom:sore throat
+I'll give him some medicine
+He'll be alright
+What happened to her? she is not feeding properly
+she is just born today
+did she just born? Yes, she is just born today
+How did she born was it a normal delivery or through operation? through operation
+okay she is born through c-section Is she born after complete days? yes
+she did a lot
+And did she cry after birth? yes, she did a lot
+Did you feed her? i tried but she is spitting milt out;;Physiologic Function:spitting
+Ok. does mother have history of any sugar or blood pressure? no
+Ok i am going to take her to the nursery we will keep her there for an hour or 2 to get her warm
+she is quite cold;;Disease or Syndrome:cold
+Then we will try to feed her again if she didn't then we might have to admit her
+she is quite cold, Then we will try to feed her again if she didn't then we might have to admit her;;Disease or Syndrome:cold
+What's his name?;;
+What is his age? 16 years old;;age:16 years
+So what's the issue? 
+Since when Does he have a fever? Since yesterday;;Sign or Symptom:fever,duration:yesterday
+Does he has pain in his throat?;;
+Did you catch a cold or is it for some other reason that you have a fever?;;
+when i have bread ,that's when
+And do you have a cough?;;
+Show me your throat
+you do have a sore throat;;Sign or Symptom:sore throat
+yes, you do have a sore throat;;Sign or Symptom:sore throat
+i will give you some medicine
+you will feel better inshallah
+i will give you some medicine, you will feel better inshallah
+What is her name? Do i have your permission?;;
+Yes sure
+please do
+Yes sure, please do
+So what's her name? ?;;
+And how old is she? she's 2 years old;;age:2 years
+she has a fever;;Sign or Symptom:fever
+she also has a severe cough when she goes to sleep;;Sign or Symptom:cough
+Now tell what is the issue? she has a fever and she also has a severe cough when she goes to sleep;;Sign or Symptom:fever,Sign or Symptom:cough
+Since when does she have the fever? She has fever from past 5 days;;Sign or Symptom:fever,duration:5 days
+Ok from 2 or 3 days;;duration:2 or 3 days
+Did she catch a cold? What is there any other reason?;;
+she also have a sore throat?
+Ok and she also have a sore throat? yes;;Sign or Symptom:sore throat
+but she only cough while sleeping;;Sign or Symptom:cough
+Does it happen during the day? no
+Does her nose whistles or sound comes from her chest? yes it does
+let me take a look
+Does she feel like she has trouble breathing? she has a high fever;;Finding:high fever, Sign or Symptom:trouble breathing
+She is anemic;;Finding:anemic
+also has sore throat;;Sign or Symptom:sore thorat
+She is anemic and also has sore throat;;Sign or Symptom:sore throat,Finding:anemic
+I will give her some medicines she will be alright
+What's the baby's name? XXXX;;name:XXXX
+And how old is she? She is 4 years old;;age:4 years
+4 years old? Yes;;age:4 years
+Her chest is congested;;Body Location or Region:chest, Functional Concept:congested
+she has runny nose;;Sign or Symptom:runny nose
+she has severe coughing;;Sign or Symptom:coughing
+And what happened to her? Her chest is congested and she has runny nose and she has severe coughing;;Sign or Symptom:coughing,Sign or Symptom:runny nose, Body Location or Region:chest, Functional Concept:congested
+There is flu;;Disease or Syndrome:flu
+There is flu and cough;;Disease or Syndrome:flu,Sign or Symptom:cough
+Is there a fever? No, no;;
+Her eyes are watery too;;Body Part_ Organ_ or Organ Component:eyes, symptoms: eyes are watery
+are they like that since flu? it was not like that before?;;
+And she chews her nails all day long;;Finding:chews,Body Part_ Organ_ or Organ Component:nails
+Her throat is sore;;Sign or Symptom:throat sore
+ok so she also chew her finger nails all day?;;
+Her throat is sore, ok so she also chew her finger nails all day? Yes;;Sign or Symptom:sore throat,Finding:chews,Body Part_ Organ_ or Organ Component:nails
+she has damaged all by chewing them;;Finding:chewing
+Thats just her habit
+Ist psychological
+its not like there is a medicine for it
+Ist psychological, its not like there is a medicine for it
+But when ever she does that try to divert her attention
+nothing else
+But when ever she does that try to divert her attention and nothing else
+And other than that she also coughs alot;;Sign or Symptom:cough
+What is her name? XXXX;;name:XXXX
+And how old is she? 7 years old;;age:7 years
+What's the issue? She has fever;;Sign or Symptom:fever
+she caught a cold;;Disease or Syndrome:cold
+Did she catch a cold? yes, she caught a cold;;Disease or Syndrome:cold
+And is there anything else? Is there any other issue?
+Do you have a sore throat? Show me
+Do you have cough or not? Just a little bit;;Sign or Symptom:cough
+Ok. take deep breaths? It looks like she has a sore throat;;Sign or Symptom:sore throat
+i am going to give her some medicine she will be alright
+What is the name of child? XXXX;;name:XXXX
+And how old is she? she is 3 years old;;age:3 years
+What's the issue?
+Since when? Show me your throat?
+Did she get a cold? Did she catch are cold?;;
+She has a sore throat;;Sign or Symptom:sore throat
+I'll give her some medicine
+She'll be alright
+What is his name? XXXX;;name:XXXX
+How old is he? What happened?;;
+Patient i am very sick
+Since when do you have the fever? Patient since yesterday;;Sign or Symptom:fever,duration:yesterday
+Do you have a sore throat? Patient yes;;Sign or Symptom:sore throat
+Did you catch a cold? Or is there any other reason?
+Do you have cough? Patient a little bit;;Sign or Symptom:cough
+you do have a sore throat;;Sign or Symptom:sore throat
+Yes, you do have a sore throat;;Sign or Symptom:sore throat
+I will recommend you some medicines
+Take them you will feel better inshallah
+What is her name? her name is XXXX;;name:XXXX
+And how old is she? So what's the issue?;;
+She is sick;;Sign or Symptom:sick
+She is feeling ill since yesterday;;Sign or Symptom:feeling ill,duration:yesterday
+she was sick all day long;;Sign or Symptom:sick,duration:day
+Since when? She is feeling ill since yesterday and she was sick all day long;;Sign or Symptom:feeling ill,Sign or Symptom:sick,druation:yesterday
+just a fever?
+Is there any other issue? No, just a fever?;;
+Does she have a sore throat? No;;
+she just have body pain and fever;;Sign or Symptom:body pain,Sign or Symptom:fever
+she just have body pain;;Sign or Symptom:body pain
+Does she urinate frequently? No, she just have body pain and fever;;Sign or Symptom:body pain,Sign or Symptom:fever
+her throat is sore;;Sign or Symptom:throat sore
+Ok, her throat is sore;;Sign or Symptom:throat sore
+i'll give her some medicine she will feel better
+i'll give her some medicine she will feel better, inshallah
+What is the child's name? XXXX;;name:XXXX
+And how old is he? he is 6;;age:6
+he has fever;;Sign or Symptom:fever
+a sore throat;;Sign or Symptom:sore throat
+So what's the issue? he has fever and a sore throat;;Sign or Symptom:fever,Sign or Symptom:sore throat
+Since when? it's been 2-days;;duration:2 days
+so it's been 2-days;;duration:2 days
+Ok, so it's been 2-days;;duration:2 days
+i gave her calpol;;Pharmacologic Substance:calpol
+Did it had any effect? no
+Does he have a cough? yes;;Sign or Symptom:cough
+Ok come here boy
+When does he have a high fever? Mostly at night;;Sign or Symptom:fever
+open your mouth
+Ok, open your mouth
+he does have a sore throat;;Sign or Symptom:sore throat
+Yes, he does have a sore throat;;Sign or Symptom:sore throat
+Does he eat a lot of stuff from the market? yes
+You have to restrict him from those because 
+his tonsils are swollen;;Finding:tonsils swollen
+You have to restrict him from those because , his tonsils are swollen;;Finding:tonsils swollen
+If he continues to eat junk
+he will get sick every month other than that
+If he continues to eat junk, he will get sick every month other than that
+I'll give him
+I medicine you will feel better
+what is his name? XXXX;;name:XXXX
+And how old is he? He is 10;;age:10
+He slipped;;Phenomenon or Process:slipped
+fell in the washroom
+And what happened to him? He slipped and fell in the washroom;;Phenomenon or Process:slipped
+How did he fall? Did he slip?
+Did he faint? Or did you foot slip?
+Patient i was like this so when i got up
+i hit my head on the faucet;;Finding:hit head
+did you had vertigo? Patient i was like this so when i got up, i hit my head on the faucet;;Finding:hit head
+So you were sitting down bent
+when you stood up it hit you on the head;;Finding:hit head
+Ok ok? So you were sitting down bent and when you stood up it hit you on the head;;Finding:hit head
+It looks like to be a serious injury you will have to get stitches;;Injury or Poisoning:serious injury
+Please take him to the operation theatre
+they clean they will clean is his wound and will stitch him
+they clean they will clean is his wound
+will stitch him
+after that come back and i'll write you the medical prescription
+after that come back
+i'll write you the medical prescription
+Please take him to the operation theatre, they clean they will clean is his wound and will stitch him, after that come back and i'll write you the medical prescription
+Ok i will
+What is his name? XXXX;;nameXXXX
+And how old is he? 10 years old;;age:10 years
+He had vomiting last night;;Sign or Symptom:vomitting
+today has a swear pain in his chest;;Sign or Symptom:pain chest
+So what seems to be the problem? He had vomiting last night and today has a swear pain in his chest;;Sign or Symptom:vomiting,Sign or Symptom:pain chest
+Doctor what else? that's it
+he had a lot of vomiting;;Sign or Symptom:vomitting
+Does he have motion too? No;;
+Did you consult anyone else? Yes we went to doctor khalid
+What did he say? He gave us these medicines
+For what purpose? He also have asthma;;Disease or Syndrome:asthma
+He has flu that is the reason why he is vomiting again;;Disease or Syndrome:flu,Sign or Symptom:vomiting
+He has flu that is the reason why he is vomiting again and again;;Disease or Syndrome:flu,Sign or Symptom:vomiting
+I am writing some tests get them done
+bring back to results
+I am writing some tests get them done and bring back to results
+Ok? Does he have motions too?
+What is his name? XXXX;;name:XXXX
+how old is he?;;
+, how old is he? 13 years;;age:13 years
+He has a swear pain over here;;Sign or Symptom:pain
+Since when? It just started today;;duration:today
+
+and do you have some sort of swelling on that placed?
+did you feel the pain suddenly?
+Ok, and do you have some sort of swelling on that placed? , did you feel the pain suddenly?
+And do you have swelling anywhere else patient no;;Finding:swelling
+Does it burn when you pee? Patient no;;
+Do you have to urinate frequently? Patient no;;
+Do you feel fever? Patient no;;
+Ok alright
+you some medicine
+Ok alright, you some medicine
+You will feel better inshallah
+What's her name? XXXX;;name:XXXX
+And how old is she? She's 9;;age:9
+she has motion;;Natural Phenomenon or Process:motion
+she also has cough;;Sign or Symptom:cough
+And what is the issue with her? she has motion and she also has cough;;Natural Phenomenon or Process:motion,Sign or Symptom:cough
+Since when does she have motion? From last night;;duration:last night
+Does she have loose stools? Yes;;Sign or Symptom:loose stools
+How many time did she went to the bathroom since morning? Almost 15 times;;frequecny:15 times
+that is more than normal
+Ok, that is more than normal
+And does she also have cough? Yes;;Sign or Symptom:cough
+Ok she is dehydrated;;Disease or Syndrome:dehydrated
+I would recommend injection;;Therapeutic or Preventive Procedure:injection
+i drip please have them
+bring her back for a checkup
+I would recommend injection and i drip please have them and bring her back for a checkup;;Therapeutic or Preventive Procedure:injection
+What is his name? XXXX;;name:XXXX
+how old is he?;;
+, how old is he? He is 8 years old;;age:8 years
+What happened? He fell down;;
+So he got injured;;Functional Concept:injured
+Where did he got hurt? Ok
+So here
+how did he fall?
+So here, how did he fall? His foot slipped;;Phenomenon or Process:slipped
+He is bleeding;;Pathologic Function:bleeding
+Did he faint or not? What?
+not at all
+Did he faint? No, not at all
+Ok. Take him to operation theatre they will clean his wound;;Therapeutic or Preventive Procedure:clean wound
+will put a bandage over;;Medical Device:bandage
+properly dress the wound;;Injury or Poisoning:wound
+Ok. Take him to operation theatre they will clean his wound and will put a bandage over and properly dress the wound;;Therapeutic or Preventive Procedure:clean wound,Medical Device:bandage,Injury or Poisoning:wound
+What's his name? XXXX;;name:XXXX
+And how old is he? 7 years old;;age:7 years
+The problem is that he has loose motion;;Sign or Symptom:loose motion
+abdominal pain;;Sign or Symptom:abdominal pain
+What's wrong with him? The problem is that he has loose motion and abdominal pain;;Sign or Symptom:abdominal pain,Sign or Symptom:loose motion
+does he has water type loose motion? Yes;;Sign or Symptom:loose motion
+And how many times? Twice;;frequency:twice
+And in the morning there is cough with mucus;;Finding:morning cough,Body Substance:mucus
+Cough happens all the time but mucus comes more in the morning;;Sign or Symptom:cough,Body Substance:mucus
+And in the morning there is cough with mucus , Cough happens all the time but mucus comes more in the morning;;Sign or Symptom:cough,Body Substance:mucus
+Does he have a fever? No fever
+is there any sound coming from his inside when he coughs? yes it comes at night when he sleeps;;Sign or Symptom:cough
+okay then sounds come
+let me see him 
+take deep breathe kid
+okay then sounds come, let me see him , take deep breathe kid
+yes But when he was in school
+he said that he had a stomach ache;;Sign or Symptom:stomach ache
+he just did loose stool twice na? yes But when he was in school, he said that he had a stomach ache;;Sign or Symptom:stomach ache,Sign or Symptom:loose stool,frequency:twice
+motion usually causes infection inside;;Natural Phenomenon or Process:motion
+I am writing him medicines he will be fine
+motion usually causes infection inside , I am writing him medicines he will be fine;;Natural Phenomenon or Process:motion
+What is her name? XXXX;;name:XXXX
+How old are you? 18;;age:18
+What is the problem? Since when is fever?;;
+Do you have a fever with cold or just fever? With a cold;;Sign or Symptom:fever,Disease or Syndrome:cold
+does fever remains same or it goes down;;Sign or Symptom:fever
+sometimes it goes down
+sometimes goes up
+sometimes it goes down and sometimes goes up
+do you have a sore throat;;Pharmacologic Substance:sore throat
+It was before
+but not so much now
+okay and do you have a sore throat? It was before, but not so much now;;Finding:sore throat
+There is no burning in urine? No
+Frequent urination? No
+Body aches? Yes;;Body Part_ Organ_ or Organ Component:body,Sign or Symptom:aches
+She also has cough;;Sign or Symptom:cough
+you have cough? Sometimes;;Sign or Symptom:cough
+its okay
+breathing is not fast?
+its okay, breathing is not fast? It happens when I speak
+alright I am giving you medicines you will be fine
+What's his name? XXXX;;name:XXXX
+How old are you? Now tell me what is the problem?;;
+tell? Don't want to tell?
+Does he have a fever? Fever at night?;;
+He had a fever last night;;Sign or Symptom:fever
+Okay sore throat? He has cough;;Sign or Symptom:cough
+show me your throat
+tell me where is the pain?
+Open your mouth
+he has tonsils ,does he eats market stuff?;;
+show me your throat, tell me where is the pain? Open your mouth, he has tonsils ,does he eats market stuff?;;
+too much
+Yes, too much
+Stop his market items
+boy you don't eat from outside
+Stop his market items, boy you don't eat from outside
+okay? giving you medicines you will be fine
+What's his name? XXXX;;name:XXXX
+And how old is he? 3 years;;age:3 years
+What happened? he has a fever;;Sign or Symptom:fever
+Fever has been since yesterday;;Sign or Symptom:fever,duration:yesterday
+already had a slight flu;;Disease or Syndrome:flu
+Since when is the fever? Fever has been since yesterday, already had a slight flu;;Sign or Symptom:fever,Disease or Syndrome:flu,duration:since yesterday
+he has a cough;;Sign or Symptom:cough
+but its more because of runny nose;;Sign or Symptom:runny nose
+is there cough? he has a cough, but its more because of runny nose;;Sign or Symptom:cough,Sign or Symptom:runny nose
+Is the fever high too? yes fever is very high;;Sign or Symptom:fever
+open your mouth
+show him your throat
+open your mouth
+show him your throat
+open your mouth, show him your throat
+does he eat
+drink fine?
+does he eat and drink fine? he also has a sore throat;;Sign or Symptom:sore throat
+He has reduced his food a little but he has not stopped so much
+okay I am sending him to children ward 
+get him an injection shot and also use cold water strips to subside his fever after this I will give him rest of medicines;;Pharmacologic Substance:cold water,Therapeutic or Preventive Procedure:injection,Sign or Symptom:fever
+get him an injection shot;;Therapeutic or Preventive Procedure:injection
+also use cold water strips to subside his fever after this I will give him rest of medicines;;Pharmacologic Substance:cold water,Sign or Symptom:fever
+okay I am sending him to children ward , get him an injection shot and also use cold water strips to subside his fever after this I will give him rest of medicines;;Sign or Symptom:fever,Therapeutic or Preventive Procedure:injection,procedure:water strips
+What's the matter with you? What is your name?;;
+How old are you? 15;;age:15
+And what's the matter? Cough;;Sign or Symptom:cough
+Cough and? Just cough;;Sign or Symptom:cough
+Fiber comes in cough? or just cough?;;
+it also has fibrosis;;Pathologic Function:fibrosis
+Is there a sore throat? no
+And there is no fever? No
+Just coughing? Is there a problem with breathing?;;
+is there any sound coming from throat or chest? Take deep breaths
+Alright I am prescribing medicines you will be fine
+what is your name? XXXX;;name:XXXX
+And how old are you? 15 years;;age:15 years
+There is pain in the throat;;Sign or Symptom:pain throat
+ear and also there is fever;;Sign or Symptom:fever
+also there is fever;;Sign or Symptom:fever
+What is the problem? There is pain in the throat , ear and also there is fever;;Sign or Symptom:pain throat
+Since when is the fever? Isn't there any pus coming out from somewhere?
+And there is pain in the ear for 3 days? Yes?;;
+Sore throat for 3 days? Feeling cold?;;
+You have a cold;;Disease or Syndrome:cold
+show me your throat
+your throat is sore;;Sign or Symptom:throat sore
+your whole body must be in pain?;;
+You have a cold, show me your throat, your throat is sore, your whole body must be in pain? ItS okay I am giving you medicines you will be fine;;Disease or Syndrome:cold,Sign or Symptom:throat sore,Sign or Symptom:pain
+in sha ALLAH
+What is the problem? what is her name?;;
+And how old is she? And what's the matter?;;
+she is coughing;;Sign or Symptom:coughing
+there was blood in the cough yesterday;;Body Substance:blood,Sign or Symptom:cough
+she is coughing and there was blood in the cough yesterday;;Sign or Symptom:coughing,Body Substance:blood
+How long have she been coughing? 5 to 6 days;;Sign or Symptom:coughing,duration:5 to 6 days
+from 5 to 6 days and the blood came only yesterday?;;
+from 5 to 6 days;;duration:5 to 6 dyas
+the blood came only yesterday?
+it came only yesterday
+Well, from 5 to 6 days and the blood came only yesterday? Yes, it came only yesterday;;duration: 5 to 6 days
+it came once
+Have it come once? Yes, it came once;;frequency:once
+Is there any bleeding with the fiber or just blood? With fiber;;Pathologic Function:bleeding,Pharmacologic Substance:fiber
+it was not much
+Didn't come too much? No, it was not much
+Anything else besides that? Have a fever?
+The fever is mild;;Sign or Symptom:fever
+And when did the fever occur? Fever at night;;Sign or Symptom:fever
+she does not
+Does she sweat? No, she does not;;
+her grand mother had it before but not now
+Does anyone in your family have TB? No, her grand mother had it before but not now;;Disease or Syndrome:tb
+Was it before her birth? yes it was before
+show me your throat baby
+open your mouth
+show me your throat baby, open your mouth
+The throat is sore so a little bit of blood comes with the cough;;Sign or Symptom:throat sore,Body Substance:blood,Sign or Symptom:cough
+I'll give you medicine If it doesn't work 
+then you have to do all the her tests
+I'll give you medicine If it doesn't work , then you have to do all the her tests
+See her X-ray? The X-ray also has a slight infection but it doesn't look like TB or anything like tb;;Diagnostic Procedure:x-ray,Disease or Syndrome:infection,Disease or Syndrome:tb
+okay what is her name? her name is XXXX;;name:XXXX
+And how old is she? 8 months;;age:8 months
+there is a lot of pain in her chest;;Sign or Symptom:pain chest
+she has trouble in breathing She has a cough;;Sign or Symptom:trouble breathing,Sign or Symptom:cough
+What's the matter? there is a lot of pain in her chest and she has trouble in breathing She has a cough;;Sign or Symptom:pain chest,Sign or Symptom:trouble breathing,Sign or Symptom:cough
+She can't sleep at night
+Does sound come from the nose at night? Yes;;symptoms:nose sound
+It looks like her chest is very congested;;Body Location or Region:chest,Functional Concept:congested
+she has a fever?;;
+Well, she has a fever? She had a high fever at night she could not sleep well at night;;Sign or Symptom:fever
+is she feeding properly
+She drinks milk properly
+There is a slight chest infection;;Disease or Syndrome:chest infection
+I am giving her medicines she will be fine
+Is there pneumonia? No, no
+what is her name?;;
+So, what is her name? XXXX;;name:XXXX
+And how old is she? What's the problem?;;
+she has these pimples;;Sign or Symptom:pimples
+And due to these she gets sick;;Sign or Symptom:sick
+Ok how long did she had them? it's been 2-days;;duration:2 days
+Did she called the pimple first or the fever? no she got sick first then she got these pimples;;Sign or Symptom:pimples,Sign or Symptom:fever
+That's what i thought
+i just don't seem to understand it
+Well mostly
+they appear after the fever;;Sign or Symptom:fever
+Well mostly, they appear after the fever;;Sign or Symptom:fever
+it's no big deal ,but if you scratch them
+So, it's no big deal ,but if you scratch them
+It will cause an infection;;Disease or Syndrome:infection
+i will give her
+so, i will give her
+Some medicine she will feel better inshallah
+can please also take a look at her throat
+Doctor ok 
+come here
+Doctor ok , come here
+Let me take a look
+Does she eat a lot of stuff from the market? yes
+Please restrict her from consuming such stuff
+but other than that
+Please restrict her from consuming such stuff, but other than that
+Take this medicine
+she will be fine
+Take this medicine and she will be fine
+What is her name? XXXX;;name:XXXX
+And how old is she? She is 10 1/2 years old;;age:10 1/2 years
+And what is the problem with her? She has a swear headache;;Sign or Symptom:headache
+She has a headache;;Sign or Symptom:headache
+since when?;;
+She has a headache, since when? its been 3 days she has headache;;Sign or Symptom:headache,duration:3 days
+she does have fever;;Sign or Symptom:fever
+Does she have fever to? Yes, she does have fever;;Sign or Symptom:fever
+and can she see properly?
+Ok , and can she see properly? She has a severe headache;;Sign or Symptom:headache
+Did the headache started with the fever? Yes;;Sign or Symptom:headache,Sign or Symptom:fever
+Where do you guys live? We live nearby
+we did not travel
+Did you travel these day? No, we did not travel
+not that much
+And do you have mosquitoes nearby where you live? No, not that much
+Her eyes are red too;;Sign or Symptom:eyes red
+Come here
+show me your throat
+Come here, show me your throat
+i am going to writer a test
+Does she have cough too? ok, i am going to writer a test;;Sign or Symptom:cough
+Get it done
+It is dengue season nowadays
+severe headache;;Sign or Symptom:headache
+fever are few of the symptoms?;;
+It is dengue season nowadays and severe headache and fever are few of the symptoms? get these tests done then we'll see;;Sign or Symptom:severe headache,Sign or Symptom:fever,Disease or Syndrome:dengue
+Neha Jamal
+3 and_a_half years old
+whats her name? XXXX, 3 and_a_half years old;;name:XXXX,age: 3 and_a_half years
+Sir she has temperature;;Health Care Activity:temperature
+throat ache;;symptoms:throat ache,Sign or Symptom:ache
+what's wrong with her? Sir she has temperature and throat ache;;symptoms:throat ache,Health Care Activity:temperature,Sign or Symptom:ache
+kab se? since yesterday;;duration:since yesterday
+how does has been since she has had this cough? does she have mucus or is it dry cough?;;
+ok his throat ache is the worst i'll write down a few medicines;;symptoms:throat ache,Sign or Symptom:ache
+she will be fine Inshallah
+did you give her any medicine? ok his throat ache is the worst i'll write down a few medicines, she will be fine Inshallah;;symptoms:throat ache,Sign or Symptom:ache
+whats her name;;
+shes 4 months;;age:4 month
+whats her name and age? XXXX and shes 4 months;;name:XXXX,age:4 months
+4 months ok whats wrong with her? since when?
+since the last 10 days
+yes she has been crying
+she has been coughing like this? yes she has been crying and coughing;;Sign or Symptom:coughing,Individual Behavior:crying
+put her in lighter cloths she has a very high temperature;;Sign or Symptom:high temperature
+I'm going to check her reports
+whats the childs name? XXXX;;name:XXXX
+he has pneumonia is not drinking milk has a fever;;Disease or Syndrome:pneumonia,Sign or Symptom:fever
+whats the issue? he has pneumonia is not drinking milk has a fever and cough;;Disease or Syndrome:pneumonia,Sign or Symptom:fever,Sign or Symptom:cough
+whats his age? 45 days;;age:45 days
+is he still getting injection? He isnt getting better?
+ok his breathing is really fast i can see his ribs moving
+you have to admit in the hospital i'll make the admission form take him in the on the floor above
+ok his breathing is really fast i can see his ribs moving, you have to admit in the hospital i'll make the admission form take him in the on the floor above
+whats her name;;
+whats her name and age? whats wrong with her?;;
+since last night? did he catch a cold;;Sign or Symptom:catch,Disease or Syndrome:cold,duration:last night
+she has a cough;;Sign or Symptom:cough
+no dry cough;;Sign or Symptom:dry cough
+she vomited in the morning;;Sign or Symptom:vomited
+Does she have dry cough or with congestion? no dry cough and she vomited in the morning;;Sign or Symptom:vomited
+did she vomit while coughing;;Sign or Symptom:vomit,Sign or Symptom:coughing
+ok i will check
+give medicine for 5 days she will fet better
+ok i will check and give medicine for 5 days she will fet better
+whats her name;;
+she is 5 months old;;age:5 months
+whats her name and age? XXXX and she is 5 months old;;name:XXXX,age:5 months
+his chest sounds really disturbed;;Finding:chest sounds
+she has a cough;;Sign or Symptom:cough
+whats the issue? his chest sounds really disturbed and she has a cough;;Finding:chest sounds,Sign or Symptom:cough
+since 1 week;;duration:1 week
+does she have a fever? no had a little before;;Sign or Symptom:fever
+is he having problem taking pee? no hes not drinking milk
+since the last week;;duration:last week
+does he make noise through his nose while taking feed? yes;;
+ok so his chest looks bad i'm going to give him an injection;;Therapeutic or Preventive Procedure:injection
+get him nebulized it's due to the cold weather;;Natural Phenomenon or Process:cold weather,Functional Concept:nebulized
+ok so his chest looks bad i'm going to give him an injection and get him nebulized it's due to the cold weather;;Therapeutic or Preventive Procedure:injection,Functional Concept:nebulized,Natural Phenomenon or Process:cold weather
+whats the child name;;
+whats the child name and age? XXXX age 6 months;;name:XXXX,age:6 months
+ok whats the issue? he has lose motion;;Natural Phenomenon or Process:motion
+are they too watery? no not that much;;
+how many time a day? did he also vomit or fever?;;
+ok i'll give him medicine
+is he taking proper feed?
+ok i'll give him medicine, is he taking proper feed? yes
+Inshal shes 40 days;;age:40 days
+sir she has a real bad cough;;Sign or Symptom:cough
+chest infection;;Disease or Syndrome:chest infection
+whats wrong with her? sir she has a real bad cough and chest infection;;Sign or Symptom:cough,Disease or Syndrome:chest infection
+does she have a fever? when the cough is worse do you hear sounds from her nose?
+is she taking feed properly
+yes but she vomits it;;Sign or Symptom:vomits
+how many times does she take feed;;
+in which form?
+after every 5 hours
+shes drinking BF1
+how many times does she take feed and in which form? after every 5 hours and shes drinking BF1;;Biologically Active Substance:bf1:BF1, frequency: every 5 hours
+did she vomit before? does she burp?
+ok i'll check
+give you medicine
+ok i'll check and give you medicine
+whats the child name;;
+hes 6 years old;;age:6 years
+whats the child name and age? XXXX and hes 6 years old;;name:XXXX,age:6 years
+he has a fever;;Sign or Symptom:fever
+whats wrong with him? he has a fever and cough;;Sign or Symptom:fever,Sign or Symptom:cough
+he just got the fever right now;;Sign or Symptom:fever
+did he catch a cold;;Sign or Symptom:catch,Disease or Syndrome:cold
+did he hai seizures?;;
+did he catch a cold and did he hai seizures? yes he caught a cold but no seizures;;Sign or Symptom:catch,Disease or Syndrome:cold
+does he have mucus in is cough? any other issue?
+he doesnt eat anything
+ok he have a throat ache and tonsils;;Body Location or Region:throat,Sign or Symptom:ache,Health Care Activity:tonsils
+ok he have a throat ache;;Body Location or Region:throat,Sign or Symptom:ache
+does he eat junk food
+ok he have a throat ache and tonsils, does he eat junk food;;Body Location or Region:throat,Sign or Symptom:ache,Health Care Activity:tonsils
+yes from the school
+ok that needs to stop because its making his throat worst
+i'll give him medicine he'll be fine
+ok that needs to stop because its making his throat worst, i'll give him medicine he'll be fine
+whats her name;;
+shes 5 months old;;age:5 months
+whats her name and age? XXXX and shes 5 months old;;namge:XXXX,age:5 months
+ok whats the issue? she has a really bad itch in her ear;;Sign or Symptom:itch ear
+does she touch her ear alot
+yes alot even some discharge comes out of her ear;;Body Substance:discharge,Body Substance:ear
+since i week;;duration:1 week
+does she have a fever;;Sign or Symptom:fever
+is she taking proper feed?
+did you give any medicine? does she have a fever and is she taking proper feed?;;
+she doesnt have a temperature but itches her ear during feed
+you have to keep her head up beacuse keeping it straight maybe the reason the milk might have gone inside her ear
+caused infection;;Disease or Syndrome:infection
+do you keep her head up while feeding? you have to keep her head up beacuse keeping it straight maybe the reason the milk might have gone inside her ear and caused infection;;Disease or Syndrome:infection
+the bottle was straight
+Yes, the bottle was straight
+keep her head up
+i'll also give her medicine
+keep her head up and i'll also give her medicine
+whats his name;;
+hes 5 years old;;age:5 years
+whats his name and age? XXXX, hes 5 years old;;name:XXXX, age:5 years
+whats wrong with him? whats wrong with him right
+he has a high fever;;Sign or Symptom:fever
+wont eat anything
+he has a high fever and wont eat anything;;Sign or Symptom:fever
+did he vomit;;Sign or Symptom:vomit
+yesterday it happened;;duration:yesterday
+no, yesterday it happened;;duration:yesterday
+since when has his colour gone yellow
+yes Amoxilin Augmentin;;Antibiotic:augmentin,Antibiotic:amoxilin
+did you give any medicine? yes Amoxilin Augmentin and Brufen;;Pharmacologic Substance:brufen,Antibiotic:augmentin
+he gets better in the day
+worse at night
+he didnt get any better? he gets better in the day and worse at night
+ok he has yellow jaundice because of eating dirty food i'll give him some medicine he'll be fine dont worry;;Sign or Symptom:jaundice
+childs name;;
+childs name and age? XXXX;;name:XXXX
+whats wrong? Fever;;Sign or Symptom:fever
+Since when? its been a week;;duration:a week
+does she have a throat ache? yes;;Body Location or Region:throat,Sign or Symptom:ache
+does she have a cough? no not much;;
+does she feel cold;;Disease or Syndrome:cold
+did you give her any medicine? yes but she didnt get any better
+ok open your mouth kid
+i think he has a throat infection i'll give him some medicine;;Disease or Syndrome:throat infection
+ok open your mouth kid, i think he has a throat infection i'll give him some medicine;;Disease or Syndrome:throat infection
+whats his name;;
+hes 3 months old;;age:3 month
+whats his name and age? XXXX, hes 3 months old;;name:XXXX, age:3 month
+he has chest congestion;;Disease or Syndrome:chest congestion
+he has chest congestion and cough;;Disease or Syndrome:chest congestion,Sign or Symptom:cough
+does he have a fever;;Sign or Symptom:fever
+since when has he been like this;;
+did ou give any medicines? no not since yesterday;;duration:yesterday
+he has chest infection i'll give him some medicine if he doesnt get better in 2 days bring him back i'll give him this injection;;Disease or Syndrome:chest infection,Therapeutic or Preventive Procedure:injection
+whats his name;;
+shes 4 years old;;age:4 years
+whats his name and age? XXXX, shes 4 years old;;name:XXXX,age:4 years
+chest issue;;Body Location or Region:chest,Finding:issue
+cough since the last 2 day's;;Sign or Symptom:cough,duration:last 2 days
+she has vomited;;Sign or Symptom:vomit
+she is breathing really fast;;Physiologic Function:breathing,Finding:fast
+whats wrong with her? chest issue and cough since the last 2 day's and she has vomited and she is breathing really fast;;Body Location or Region:chest,Finding:issue,Sign or Symptom:cough,duration:2 days,Sign or Symptom:vomited,Biologic Function:breathing
+does he have a fever? yes but it gets worse at night;;Sign or Symptom:fever
+open your mouth kid...does she eat junk food
+avoid this junk food it looks like he has a bad throat infection;;Disease or Syndrome:throat infection
+whats his name;;
+hes 9 months;;age:9 months
+11 days old;;age:11 days
+whats his name and age? XXXX and hes 9 months and 11 days old;;name:XXXX,age:9 months and 11 days
+whats wrong with him
+I was busy doing some work
+he was lying on the bed
+fell off started bleeding from his nose but it stopped by it self but he keeps bleeding from the same place after a while;;Pathologic Function:bleeding nose
+I was busy doing some work and he was lying on the bed and fell off started bleeding from his nose but it stopped by it self but he keeps bleeding from the same place after a while;;Pathologic Function:bleeding nose
+did he faint or had seizures;;Sign or Symptom:faint,Sign or Symptom:seizures
+no but he lost his breath for a while then the bleeding stopped;;Pathologic Function:bleeding
+did you give him anything to stop the bleeding;;Pathologic Function:bleeding
+i just put a cloth
+there is swelling here get an xray;;Finding:swelling,Diagnostic Procedure:xray
+then we'll see
+there is swelling here get an xray and then we'll see;;Finding:swelling,Diagnostic Procedure:xray
+whats his name;;
+whats his name and age? XXXX is 6 years old;;name:XXXX,age:6 years
+whats wrong with him? he had a little before fever but now has a really bad cough;;Sign or Symptom:fever,Sign or Symptom:cough
+yes i gave him Brufen and Calpol and for the cough;;Pharmacologic Substance:brufen,Pharmacologic Substance:calpol,Sign or Symptom:cough
+yes i gave him Brufen;;Sign or Symptom:brufen
+for the cough;;Sign or Symptom:cough
+cough syrup
+herbal ones too
+does he have a throat ache did you give him any medicine? yes i gave him Brufen and Calpol and for the cough, cough syrup, herbal ones too;;Sign or Symptom:brufen,Pharmacologic Substance:calpol,Sign or Symptom:cough
+and it still get better
+ok its not that bad i'll give him a medicine
+and it still get better, ok its not that bad i'll give him a medicine
+whats his name;;
+whats his name and age? XXXX shes 15 years old;;name:XXXX,age:15 years
+whats wrong with her? she has swelling in her arms;;Finding:swelling
+do you have some pain in your neck? or fever?
+i have a fever;;Sign or Symptom:fever
+throat ache with coughs;;Body Location or Region:throat,Sign or Symptom:ache,Sign or Symptom:coughs
+i feel dizzy;;Sign or Symptom:dizzy
+i have a fever and throat ache with coughs and i feel dizzy;;Sign or Symptom:fever,Body Location or Region:throat,Sign or Symptom:ache, Sign or Symptom:coughs,Sign or Symptom:dizzy
+did the issue with your arms started with the fever? open your mouth.. ok you have throat infection i'll give her medicine;;Disease or Syndrome:throat infection
+whats his name;;
+whats his name and age? XXXX hes 1;;name:XXXX,age:1
+throat acha;;Body Location or Region:throat
+whats wrong with him? throat acha and fever;;Body Location or Region:throat,Sign or Symptom:fever
+is the fever high;;Sign or Symptom:fever
+does he feel cold?
+does he have a cough? is the fever high and does he feel cold?
+does he eat properly? yes he only drinks milk
+it looks like he has throat infection;;Disease or Syndrome:throat infection
+why isnt he eating any sold food hes old enough
+has he stopped eating or drinking? it looks like he has throat infection and why isnt he eating any sold food hes old enough;;Disease or Syndrome:throat infection
+i dont know he just drinks cows milk
+ok he has a throat infection i'll give him medicine;;Disease or Syndrome:throat infection
+whats his name;;
+whats his name and age? whats wrong with her?;;
+she got an electric shook;;
+after that she has alot on pain in her arm;;Sign or Symptom:pain,Body Location or Region:arm
+she got an electric shook and after that she has alot on pain in her arm;;Sign or Symptom:pain,Body Location or Region:arm
+from where? from fridges wire
+no she just got really tired
+her arm turned black
+did she faint? no she just got really tired and her arm turned black
+ok you shes need ECG;;Diagnostic Procedure:ecg
+a blood test;;Laboratory Procedure:blood test
+we will observe
+ok you shes need ECG and a blood test and we will observe;;Diagnostic Procedure:ecg,Laboratory Procedure:blood test
+whats his name;;
+whats his name and age? XXXX shes 4 year's old;;name:XXXX,age:4 years
+is she still bleeding
+ok she needs to get X-ray;;Diagnostic Procedure:x-ray
+i'll give you some medicine
+ok she needs to get X-ray and i'll give you some medicine;;Diagnostic Procedure:x-ray
+What's the name of the girl;;
+what’s her age?;;
+age is 11 years;;age:11 year
+What's the name of the girl and what’s her age? XXXX, age is 11 years;;name:XXXX,age:11 years
+What's the issue? She has pain in her abdomen;;Body Location or Region:abdomen,Finding:pain
+Since how long has she had the fever;;Sign or Symptom:fever
+has she vomited because of pain?;;
+she doesnt have fever and no pain in other places;;
+she doesnt have fever;;
+no pain in other places;;
+Since how long has she had the fever and has she vomited because of pain? No, she doesnt have fever and no pain in other places;;
+how long has it been this way? since yesterday evening;;duration:yesterday
+Stand up I'll check
+Tell me when it hurts
+Does it hurt here? Okay there's seems to be a problem so I'll write down some tests
+Get them done then come back hereKR
+It's a urine test;;Laboratory Procedure:urine test
+a blood test;;Laboratory Procedure:blood test
+It's a urine test and a blood test;;Laboratory Procedure:urine test,Laboratory Procedure:blood test
+whats your age;;
+I'm 18;;age:18
+whats your age and name? XXXX, I'm 18;;name:XXXX,age:18
+whats wrong? it burns when i pass urine
+since when
+do you have a fever too?
+its been like his for the last 7 days;;duration:7 days
+fever has been low;;Sign or Symptom:fever
+since when, do you have a fever too? its been like his for the last 7 days and fever has been low;;Sign or Symptom:fever,duration:7 days
+you need to get these 2 tests done
+i'll give medicine for the urine infection;;Body Substance:urine, Disease or Syndrome:infection
+you need to get these 2 tests done and i'll give medicine for the urine infection;;Body Substance:urine, Disease or Syndrome:infection
+whats your age;;
+whats your age and name? XXXX I'm 18;;name:XXXX,age:18
+whats wrong? it burns when i pass urine;;
+since when;;
+do you have a fever too?
+its been like his for the last 7 days;;duration:7 days
+yes i do have a fever;;Sign or Symptom:fever
+since when, do you have a fever too? its been like his for the last 7 days and yes i do have a fever;;Sign or Symptom:fever,duration:7 days
+did you catch a cold;;Disease or Syndrome:cold
+you need to get these tests done
+then i'll give medicine
+you need to get these tests done and then i'll give medicine
+whats her name;;
+whats her name and age? XXXX shes 6;;name:XXXX,age:6
+whats wrong? did she faint?
+ok i can see the cut take her to the OT;;Injury or Poisoning:cut,Therapeutic or Preventive Procedure:ot
+get her wound cleaned;;Injury or Poisoning:wound,Activity:cleaned
+stitched i'll see her after that;;
+give medicine
+ok i can see the cut take her to the OT and get her wound cleaned and stitched i'll see her after that and give medicine;;Injury or Poisoning:cut,Therapeutic or Preventive Procedure:ot 
+whats her name;;
+whats her name and age;;
+how are her eating habits? ok her throat look bad i'll give her some medicine;;Body Location or Region:throat,Qualitative Concept:bad
+whats her name;;
+XXXX shes 2 and_a_half month hold;;name:XXXX, age:2 and half month
+whats wrong with her? she has lose motion;;Natural Phenomenon or Process:motion
+are they really watery;;Qualitative Concept:watery
+since when;;
+how many times per day?;;
+since when and how many times per day? dor teen sey hein
+dis she vomit or has a fever? which milk are you giving her?
+electro 1 its good
+yes this is the same brand since day one
+ok he looks like he is dehydrated you have to give her ORS almost 20ml it can be through a spoon;;Disease or Syndrome:dehydrated,Pharmacologic Substance:ors
+give him feed frequently
+if his breathing fast feeling lethargy or droopy eyes youhave to bring him again;;Sign or Symptom:lethargy
+ok he looks like he is dehydrated you have to give her ORS almost 20ml it can be through a spoon and give him feed frequently and if his breathing fast feeling lethargy or droopy eyes youhave to bring him again;;Disease or Syndrome:dehydrated,Sign or Symptom:lethargy
+whats her name;;
+XXXX shes 4;;name:XXXX,age:4
+Whats wrong with her? Patients mother?
+she has a flu;;Disease or Syndrome:flu
+she has a flu and fever;;Disease or Syndrome:flu,Sign or Symptom:fever
+did you give her any medicine
+did she catch a cold? yes;;Disease or Syndrome:cold
+does she has a mucus filled cough;;Body Substance:mucus,Disease or Syndrome:cough
+can you hear a whistle when she breaths?
+when is the fever high? does she has a mucus filled cough and can you hear a whistle when she breaths?
+does she use a inhaler? 
+ok her chest is infected i'll give her some medicine;;Body Location or Region:chest,Finding:infected
+sachets you have to given them to her;;Manufactured Object:sachets
+ok her chest is infected i'll give her some medicine and sachets you have to given them to her;;Body Location or Region:chest,Finding:infected,Manufactured Object:sachets
+whats your name;;
+my name is XXXX;;name:XXXX
+age 18 years;;age:18 years
+whats your name and age? my name is XXXX and age 18 years;;name:XXXX,age:18 years
+i burnt my hand;;
+didnt really look after it well so now it hurts alot at night my whole arm hurts
+ok whats wrong? i burnt my hand and didnt really look after it well so now it hurts alot at night my whole arm hurts;;
+yes i can see some swelling;;Finding:swelling
+redness i'll give you a painkiller it will be better;;Finding:redness
+yes i can see some swelling and redness i'll give you a painkiller it will be better;;Finding:redness,Finding:redness 
+whats his name;;
+whats his name and age? XXXX hes 4 years old;;name:XXXX, age:4 years
+he has fever;;Sign or Symptom:fever
+whats wrong? he has fever and flu;;Sign or Symptom:fever,Disease or Syndrome:flu
+did he catch a cold? yes yes;;Disease or Syndrome:cold
+does she have a cough;;Sign or Symptom:cough
+doe she eat well? no nothing i gave him medicine but it didnt help
+ok i'll give her medicine
+she'll get better
+ok i'll give her medicine and she'll get better
+whats his name;;
+whats his name and age? XXXX hes four;;name:XXXX,age:four
+he has a fever;;Sign or Symptom:fever
+whats wrong with him? he has a fever and cough;;Sign or Symptom:fever,Sign or Symptom:cough
+did he catch a cold? no but he has a really bad cough;;Sign or Symptom:cough
+since when has he stopped eating? no he has been like this even before getting sick
+ok he has a throat infection he will get better;;Disease or Syndrome:throat infection
+whats his name;;
+hes 1 years old;;age:1 year
+whats his name and age? XXXX, hes 1 years old;;name:XXXX, age:1 years
+he has a cough;;Sign or Symptom:cough
+stomach ache and vomit;;Sign or Symptom:vomit,Sign or Symptom:stomach ache
+stomach ache;;Sign or Symptom:stomach ache
+whats wrong with him? he has a cough, stomach ache and vomit;;Sign or Symptom:cough, Sign or Symptom: vomit,Sign or Symptom:stomach ache
+how is the vomit? frequently;;Sign or Symptom:vomit
+no thats too much for his stomach but i'll give him medicine
+Patients guardian ok
+ok so they're twins
+this baby is really weak so we have to admit him and give him BFLG feed the other baby is fine he can stay on mothers feed
+this baby is really weak so we have to admit him
+give him BFLG feed the other baby is fine he can stay on mothers feed
+ok so they're twins, this baby is really weak so we have to admit him and give him BFLG feed the other baby is fine he can stay on mothers feed
+what's the mothers age? does she have any other kid?
+did she have a miscarriage? did she have sugar or blood pressure during pregnancy?
+did she have amniotic fluid;;Body Substance:amniotic fluid
+Patients guardian no
+ok overall the baby is fine its just hes very weak
+he weighs only 1;;weight:1
+ok overall the baby is fine its just hes very weak, he weighs only 1;;weigh:1
+6 so we have to give him him food through a tube
+Try to give him mothers milk as soon as possible through tube we'll teach you its better than the packed milk
+whats his name;;
+XXXX age 9 months;;name:XXXX,age:9 months
+I came yesterday my child fell
+whats his name and age? XXXX age 9 months, I came yesterday my child fell;;name:XXXX,age:9 months
+ok so whats wrong with him today? 
+does she have a cough? did i give any medicine yesterday
+do you hear any sounds from his nose while hes taking feed
+hes 9 months old why dont you give him proper food;;age:9 months
+i gave him cerelac time to time but he gets infection;;Disease or Syndrome:infection
+he doesnt eat sweet things
+thats not important whatever you eat give a little to him
+whats her name;;
+she's 1 and_a_half years old;;age:1 and_a_half years
+whats her name and age? XXXX and she's 1 and_a_half years old;;name:XXXX,age:1 and_a_half years
+she fell for the bed earlier and after that every time she eats;;
+she fell for the bed earlier;;
+after that every time she eats
+she vomits;;Sign or Symptom:vomit
+she fell for the bed earlier and after that every time she eats;;
+she fell for the bed earlier;;
+after that every time she eats
+she vomits;;Sign or Symptom:vomits
+she fell for the bed earlier and after that every time she eats, she vomits;;Sign or Symptom:vomit
+when she fell did she faint;;Sign or Symptom:faint
+have seizures;;Sign or Symptom:seizures
+when she fell did she faint and have seizures;;Sign or Symptom:faint,Sign or Symptom:seizures
+look here kid
+from how much height did she fell
+look at me kid
+ok so he looks fine but we will observe him but nothing to worry about
+look at me kid, ok so he looks fine but we will observe him but nothing to worry about
+whats your name;;
+whats your name and age? XXXX age 18 years;;name:XXXX,age:18 years
+whats the issue? flu and fever;;Disease or Syndrome:flu,Sign or Symptom:fever
+did you take any medicine? Tilt your head upwards do you have pain here
+ok you have a throat infection i'll give you some medicine;;Disease or Syndrome:throat infection
+What is your name;;
+What is your name and age? whats wrong?;;
+i have a fever;;Sign or Symptom:fever
+i have a fever and flu;;Sign or Symptom:fever,Disease or Syndrome:flu
+my chest also hurts;;Body Location or Region:chest,Finding:hurts
+did you catch a cold? yes , my chest also hurts;;Disease or Syndrome:cold,Body Location or Region:chest,Finding:hurts
+is the fever frequent? yes;;Sign or Symptom:fever
+do you have a throat ache? Tilt your head upwards;;Body Location or Region:throat,Sign or Symptom:ache
+ok so your throat seems to be in bad condition I'll give some medicines it'll be fine;;Body Location or Region:throat,Qualitative Concept:bad
+whats her name;;
+age 16 years;;age:16 years
+whats her name and age? XXXX, age 16 years;;name:XXXX,age:16 years
+she has difficulty breathing;;Sign or Symptom:difficulty breathing
+her hands
+legs swell up;;Finding:swell
+she has difficulty breathing and her hands and legs swell up;;Sign or Symptom:difficulty breathing, Finding:swell
+since when does she have this issue;;
+since the last 7 days didnt have it before;;duration:last 7 days
+does she have asthma? does this happen often in this weather?
+no no this is recent 
+she just has difficulty breathing? 
+ok let me check.. i think she has an allergy i'll give her medicine;;Pathologic Function:allergy
+was he born today? yes
+girl or boy? girl
+was it a normal delivery or operation
+was he born on the due date? did she cry when she was born
+she cried but after 30 minutes she was not conscious
+where was she born? in Gynae ward
+i'll see she looks normal but i'll see if we have to admit her or not
+whats your name;;
+whats your name and age? XXXX age 18 years;;name:XXXX,age:18 years
+i have a fever;;Sign or Symptom:fever
+a throat ache;;Body Location or Region:throat,Sign or Symptom:ache
+whats wrong? i have a fever and a throat ache;;Sign or Symptom:fever,Body Location or Region:throat,Sign or Symptom:ache
+since last 3 days;;duration:last 3 days
+do you feel cold;;Disease or Syndrome:cold
+since when have you had this throat ache;;Body Location or Region:throat,Sign or Symptom:ache
+it started with a throat ache;;Body Location or Region:throat,Sign or Symptom:ache
+did you take any medicine
+yes i took Panadol;;Pharmacologic Substance:panadol
+open your mouth.. yes your throat looks bad do you have a cough;;Sign or Symptom:cough
+i'll give you medicine
+whats the name;;
+whats the name and age;;
+XXXX age 4 years old;;name:XXXX,age:4 years
+whats wrong? she has a flu;;Disease or Syndrome:flu
+does he have constipation? a little bit;;Sign or Symptom:constipation
+she has lose motion right now;;Natural Phenomenon or Process:motion
+she has this flu continuously? noi;;Disease or Syndrome:flu
+does she have a fever? yes since the last 2 days;;Sign or Symptom:fever,duration:last 2 days
+does she have a cough;;Sign or Symptom:cough
+do you hear sounds from her nose
+does she have a cough, do you hear sounds from her nose;;Sign or Symptom:cough
+yes even from her throat;;
+which milk are you giving her? why?
+its good she doesnt have lose motion since then;;
+she doesnt have a fever right;;
+her head is really warm;;Body Location or Region:head,Finding:warm
+fever isnt limited to jut the head it has to be all through to the body;;Sign or Symptom:fever
+whats his name;;
+whats his name and age? XXXX age 14 months;;name:XXXX,age:14 months
+whats wrong ? since when?;;
+does he feel cold when he has a fever;;Sign or Symptom:fever,Disease or Syndrome:cold
+does he have a cough;;Sign or Symptom:cough
+yes he has a fever;;Sign or Symptom:fever
+flu even his throat is infected;;Disease or Syndrome:flu,Body Location or Region:throat,Finding:infected
+yes he has a fever and flu even his throat is infected;;Sign or Symptom:fever,Disease or Syndrome:flu,Body Location or Region:throat,Finding:infected
+I'll give him medicine
+he has joggles;;
+does his eyes go up or foam comes up from his month? no
+those are just shivers;;Finding:shivers
+whats his name;;
+whats his name and age? XXXX age 3 years;;name:XXXX,age:3 years
+whats wrong? fever;;Sign or Symptom:fever
+since the last 2 days;;duration:2 days
+he has throat infection i'll give some medicine put him in some lose cloths;;Disease or Syndrome:throat infection
+whats his name;;
+whats his name and age? Shayan he's 4 years?;;
+whats wrong? fever and flu;;Sign or Symptom:fever,Disease or Syndrome:flu
+is he eating well
+he has a fever so put him in lighter cloths;;Sign or Symptom:fever
+whats his name;;
+whats his name and age? XXXX shes 11;;name:XXXX,age:11
+whats wrong? she has been vomiting?;;
+does she have a throat ache? no she jut have a stomach ache;;Sign or Symptom:stomach ache
+does she have a fever? no;;
+how often has she vomited;;Sign or Symptom:vomiting
+ok son look up look down 
+the medicines you gave arent really effecting
+ok son look up look down , the medicines you gave arent really effecting
+he looks really dehydrated;;Disease or Syndrome:dehydrated
+we have to give him injections and a drip;;Therapeutic or Preventive Procedure:injection
+we have to give him injections;;Therapeutic or Preventive Procedure:injection
+a drip
+he looks really dehydrated, we have to give him injections and a drip;;Disease or Syndrome:dehydrated,Therapeutic or Preventive Procedure:injection
+these medicines didnt work at all
+sometimes the medicines dont work when the condition is worse
+whats your name? XXXX;;name:XXXX
+whats the problem? I have fever;;Sign or Symptom:fever
+do you have a throat ache? a little bit;;Body Location or Region:throat,Sign or Symptom:ache
+open your mouth.. did you take any medicine
+He has a throat ache;;Body Location or Region:throat,Sign or Symptom:ache
+I'll give him an injection;;Therapeutic or Preventive Procedure:injection
+we'll get him checked
+I'll give him an injection and we'll get him checked;;Therapeutic or Preventive Procedure:injection

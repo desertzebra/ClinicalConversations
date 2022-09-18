@@ -1,0 +1,835 @@
+what is child's name? XXXX
+*[CLS] what is child's name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old is he? 5 years
+*[CLS] how old is he? [MASK] years;;age:5 years;;(old|age)(.*)?\? (he is|she is|shes)?(?P<Age>.*)(years|month|day)?(.*)?
+the child has cough
+*[CLS] the child has [MASK];;Sign or Symptom:cough;;umls 
+what's wrong with the baby? the child has cough and cold
+*[CLS] what's wrong with the baby? [SEP] the child has [MASK] and [MASK];;Sign or Symptom:cough,Disease or Syndrome:cold;;umls 
+*[CLS] what's wrong with the baby? [SEP] the child has [MASK] and cold;;Sign or Symptom,Disease or Syndrome:cold;;umls 
+*[CLS] what's wrong with the baby? [SEP] the child has cough and [MASK];;Sign or Symptom:cough,Disease or Syndrome;;umls 
+*[CLS] [MASK] has cough and cold;;Sign or Symptom:cough,Disease or Syndrome:cold;;umls
+*[CLS] [MASK] has cold and cough;;Sign or Symptom:cough,Disease or Syndrome:cold;;umls 
+how long? it's been 3 days
+*[CLS] how long? [SEP] it's been [MASK];;duration:3 days;;(.* )? it's been (\s*the last|\s*previous)?\s*(?P<Duration>.*( days|week|month|year)?(s)?)
+the cough has been there for 3 days
+*[CLS] the cough has been there for [MASK];;Sign or Symptom:cough;;umls
+*[CLS] the [MASK] has been there for [MASK];;duration:3 days;;(.* )? for(\s+the last|\s+previous)?\s+(?P<Duration>.*( day|week|month|year)?(s)?)
+the fever has been there for 3 days?
+the cough has been there for 3 days and the fever has been there for 3 days? yes
+just cough
+sore throat
+high fever or general fever? just cough and sore throat
+*[CLS] high fever or general fever? [SEP] just cough and sore throat;;Sign or Symptom,Sign or Symptom;;umls
+*[CLS] does he have high fever? [SEP] yes;;Sign or Symptom;;umls
+*[CLS] does he have high fever? [SEP] yes;;Finding;;umls
+*[CLS] does he have high fever? [SEP] just cough and sore throat;;Sign or Symptom, Sign or Symptom;;umls
+is he complaining for sore throat
+is there a sore throat? son,open your mouth?
+is there any pain? does fever comes with chills?
+he has sore throat ,due to this
+*[CLS] [MASK] has [MASK] , due to this;;Sign or Symptom:sore throat;;umls
+*[CLS] [MASK] has [MASK] , due to this;;Finding;;umls
+he is getting fever again and again
+*[CLS] [MASK] is getting [MASK] again and again;;Sign or Symptom;;umls
+*[CLS] [MASK] is getting [MASK] again and again;;Finding;;umls
+he is getting fever again
+*[CLS] [MASK] is getting [MASK] again;;Sign or Symptom;;umls
+*[CLS] [MASK] is getting [MASK] again;;Finding;;umls
+he has sore throat ,due to this, he is getting fever again and again
+*[CLS] [MASK] has sore throat, due to this, [MASK] is getting fever again and again;;Sign or Symptom,Finding;;umls
+*[CLS] [MASK] has [MASK], due to this, [MASK] is getting fever again and again;;Sign or Symptom,Finding;;umls
+*[CLS] [MASK] has sore throat, due to this, [MASK] is getting [MASK] again and again;;Sign or Symptom,Finding;;umls
+*[CLS] [MASK] is getting [MASK] ,due to this, he is getting [MASK] again and again;;Sign or Symptom,Finding;;umls
+i will give him medicine he will get well
+*[CLS] i will give [MASK] medicine, [MASK] will get well;;Pharmacologic Substance:medicine;;umls
+how old are you? 18 years old
+*[CLS] how old are you? [SEP] [MASK] years old;;age:18 years;;(old|age)(.*)?\? (he is|she is|shes)?(?P<Age>.*)(years|month|day)?(.*)?
+sir i am having severe flu
+*[CLS] sir i am having sever [MASK];;Disease or Syndrome:flu;;umls
+cough along with little fever
+*[CLS] cough along with little fever;;Sign or Symptom:cough,Finding:fever;;umls
+*[CLS] cough along with little fever;;Sign or Symptom:cough,Sign or Symptom:fever;;umls
+*[CLS] [MASK] along with little fever;;Sign or Symptom,Sign or Symptom:fever;;umls
+*[CLS] [MASK] along with little fever;;Sign or Symptom,Finding:fever;;umls
+what is your issue? sir i am having severe flu and cough along with little fever
+*[CLS] what is your issue? [SEP] sir i am having severe [MASK] and [MASK] along with little [MASK];;Sign or Symptom:cough,Disease or Syndrome:flu,Finding:fever;;umls
+*[CLS] what is your issue? [SEP] i am having severe flu and [MASK] along with little [MASK];;Sign or Symptom,Disease or Syndrome:flu,Finding;;umls
+*[CLS] what is your issue? [SEP] i am having severe [MASK] and cough along with little [MASK];;Sign or Symptom,Disease or Syndrome:flu,Finding;;umls
+*[CLS] what is your issue? [SEP] i am having severe [MASK] and [MASK] along with little fever;;Sign or Symptom,Disease or Syndrome:flu,Finding;;umls
+there is a sore throat
+*[CLS] there is a [MASK];;Sign or Symptom;;umls
+*[CLS] there is a sore throat;;Sign or Symptom:sore throat;;umls
+is there a sore throat? yes, there is a sore throat
+do you have a sore throat while coughing? yes
+let me give you medicine
+*[CLS] let me give you medicine;;Pharmacologic Substance:medicine;;umls
+it will be fine
+in sha allah
+let me give you medicine, it will be fine, in sha allah
+*[CLS] let me give you medicine, it will be fine;;Pharmacologic Substance:medicine;;umls
+what is his name? his name is XXXX
+*[CLS] what is [MASK] name? [SEP] [MASK] name is [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+and how old is he? 10 and_a_half years
+*[CLS] and how old is [MASK]? [SEP] [MASK] years;;age:10 and_a_half years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(and_a_half\s*)?(year|month|day)?(s)?)(.*)?
+alright 10 and_a_half years
+*[CLS] alright [MASK] years;;age;; [\w]+(he is|she is|shes)?(?P<Age>[\w|\d]+\s*(and_a_half\s*)?(year|month|day)?(s)?)
+so what's the problem?
+the throat is sore
+*[CLS] the throat is [MASK];;Sign or Symptom;;umls
+also there is flu
+*[CLS] also there is [MASK];;Disease or Syndrome:flu;;umls
+alright 10 and_a_half years, so what's the problem? the throat is sore and also there is flu
+is there a sore throat? yes along with cough
+*[CLS] is there a [MASK]? [SEP] [MASK] along with [MASK];;Sign or Symptom:cough,Sign or Symptom:sore throat;;umls
+since when is it?
+ok, since when is it? it's from last night
+[CLS] since when is it? it's from last night;;duration:last night;;(.*)(since|from)[\s+the last|\s+previous]?\s+(?P<Duration>.*(day|week|month|year|night)(s)?)(.*)\s*[\W]?(.*)?
+[CLS] since when is it? it's from [MASK];;duration;;(.*)(since|from)[\s+the last|\s+previous]?\s+(?P<Duration>.*(day|week|month|year|night)(s)?)(.*)\s*[\W]?(.*)?
+there is also a cough
+*[CLS] there is also a [MASK];;Sign or Symptom:cough;;umls
+is there a cough also since night? is there a fever?
+we went to a marriage ceremony so he caught cold
+*[CLS] we went to a marriage ceremony so he caught [MASK];;Disease or Syndrome;;umls
+*[CLS] we went to a marriage ceremony so [MASK] caught cold;;Disease or Syndrome:cold;;umls
+*[CLS] [MASK] caught cold;;Disease or Syndrome:cold;;umls
+is there fever? yes also has a fever
+*[CLS] is there [MASK]? [SEP] [MASK] also has a [MASK];;Finding:fever;;umls
+*[CLS] is there fever? [SEP] yes;;Finding:fever;;umls
+*[CLS] is there fever? [SEP] yes also has fever;;Finding:fever;;umls
+*[CLS] is there fever? [SEP] yes [MASK] also has fever;;Finding:fever;;umls
+show me your throat
+yes show him your throat
+open your mouth
+he has sore throat
+*[CLS] he has [MASK];;Sign or Symptom:sore throat;;umls
+i will give him medicine
+*[CLS] i will give [MASK] medicine;;Pharmacologic Substance:medicine;;umls
+he will get better
+open your mouth, he has sore throat, i will give him medicine, he will get better
+*[CLS] open your mouth, [MASK] has [MASK], i will give him medicine, [MASK] will get better;;Sign or Symptom:sore throat,Pharmacologic Substance:medicine;;umls
+what is his name? XXXX
+*[CLS] what is his name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+and how old is he? 5 and_a_half years
+*[CLS] and how old is he? [SEP] [MASK] years;;age:5 and_a_half years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(and_a_half\s*)?(year|month|day)?(s)?)(.*)?
+5 and_a_half years? so what's the problem?
+he has a sore throat
+*[CLS] he has [MASK];;Sign or Symptom:sore throat;;umls
+with mild cough
+*[CLS] with mild [MASK];;Sign or Symptom:cough;;umls
+he has a sore throat, with mild cough
+*[CLS] he has a [MASK], with mild [MASK];;Sign or Symptom:cough,Sign or Symptom:sore throat;;umls
+does he has fever also? 
+fever is not there yet
+but he has sore throat
+*[CLS] but he has [MASK];;Sign or Symptom:sore throat;;umls
+fever is not there yet, but he has sore throat
+*[CLS] [MASK] is no there yet, but he has [MASK];;Sign or Symptom:sore throat;;umls
+show me your throat 
+open your mouth 
+yes he has a sore throat
+*[CLS]yes he has [MASK];;Sign or Symptom:sore throat;;umls
+show me your throat , open your mouth , yes he has a sore throat
+*[CLS] show me your [MASK] , open your [MASK] , yes [MASK] has a [MASK];;Sign or Symptom:sore throat;;umls
+i will give him medicine
+*[CLS] i will give [MASK] medicine;;Pharmacologic Substance:medicine;;umls
+he will be fine
+i will give him medicine, he will be fine
+*[CLS] i will give [MASK] medicine, he will be fine;;Pharmacologic Substance:medicine;;umls
+what is the name of your child
+and how old is he? what is the problem?
+he had a fever four or five days ago
+*[CLS] [MASK] had a [MASK] [MASK] days ago;;Finding;;umls
+*[CLS] [MASK] had a fever;;Finding:fever;;umls
+[CLS] [MASK] had a fever [MASK] days ago;;Finding:fever;;umls
+[CLS] [MASK] had [MASK] days ago;;duration;;(.*)(since|from|had a)[\s+the last|\s+previous]?\s+(?P<Duration>.*(day|week|month|year|night)(s)?)(.*)\s*[\W]?(.*)?
+he doesn't have a fever now
+but he has a cough
+*[CLS] but he has a [MASK];;Sign or Symptom:cough;;umls
+and does not eat or drink well
+he doesn't have a fever now, but he has a cough, and does not eat or drink well
+ever since he was sick
+he is not eating and drinking
+he is not eating
+ever since he was sick, he is not eating and drinking
+he was okay to eat before
+yes, sir, he was okay to eat before
+open your mouth baby
+he has a little sore throat i will give him medicine along with supplements 
+*[CLS] [MASK] has a little [MASK] i will give [MASK] medicine along with supplements;;Sign or Symptom:sore throat,Pharmacologic Substance:medicine;;umls
+has he complaining about sore throat? open your mouth baby, he has a little sore throat i will give him medicine along with supplements 
+*[CLS] has [MASK] compalining about [MASK]? open your mouth [MASK] has a little [MASK] i will give [MASK] medicine along with supplements;;Body Location or Region:mouth, Sign or Symptom:sore throat,Pharmacologic Substance:medicine;;umls
+what is the child name? how old is he?
+what's the matter? he has a cough
+*[CLS] what's the matter? [SEP] he has a [MASK];;Sign or Symptom:cough;;umls
+*[CLS] what's the matter? [SEP] he has a [MASK];;Finding:cough;;umls
+and what? it's just a cough
+*[CLS] and what? it's just a [MASK];;Sign or Symptom;;umls
+*[CLS] and what? it's just a [MASK];;Finding;;umls
+cough is fibrous? 
+fiber was before but now its better but cough is very severe
+ok he has severe coughing
+*[CLS] ok he has severe [MASK];;Sign or Symptom;;umls
+*[CLS] ok [MASK] has severe coughing;;Sign or Symptom:coughing;;umls
+*[CLS] ok [MASK] has severe fever;;Sign or Symptom:fever;;umls
+*[CLS] ok he has severe [MASK];;Finding;;umls
+*[CLS] ok [MASK] has severe fever;;Finding:fever;;umls
+does he have fever etc
+ok he has severe coughing, does he have fever etc
+*[CLS] ok [MASK] has severe [MASK], does [MASK] have [MASK] etc;;Sign or Symptom:severe coughing;;umls
+*[CLS] ok [MASK] has severe [MASK], does [MASK] have [MASK] etc;;Finding;;umls
+and flu? there is no flu
+look up
+kid show me your throat 
+it is fine
+just a little sore throat
+*[CLS] just a little [MASK];;Sign or Symptom:sore throat;;umls
+well, look up, kid show me your throat , it is fine, just a little sore throat
+*[CLS] well, look up, kid show me you [MASk] , it is fine, just a little [MASK];;Sign or Symptom:sore throat;;umls
+the problem is not so much
+he will be fine with medicines
+*[CLS] [MASK] will be fine with medicines;;Pharmacologic Substance:medicines;;umls
+the problem is not so much, he will be fine with medicines
+*[CLS] the problem is not so much, [MASK] will be fine with medicines;;Pharmacologic Substance:medicines;;umls
+what is your name? XXXX 
+*[CLS] what is your name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old are you? 12 years
+*[CLS] how old are you? [SEP] [MASK] years;;age:12 years;;(old|age)(.*)?\? (he is|she is|shes)?(?P<Age>.*)(years|month|day)?(.*)?
+there is fever
+*[CLS] there is fever;;Finding;;umls
+flu and sore throat
+*[CLS] [MASK] and [MASK];;Disease or Syndrome:flu,Sign or Symptom:sore throat;;umls
+sore throat
+what is the problem? there is fever, flu and sore throat
+*[CLS] what is the problem? [SEP] there is [MASK], [MASK] and [MASK];;Finding:fever,Disease or Syndrome:flu,Sign or Symptom:sore throat;;umls
+*[CLS] what is the problem? [SEP] there is [MASK], [MASK] and [MASK];;Sign or Symptom,Disease or Syndrome:flu,Sign or Symptom:sore throat;;umls
+do you have cough also? yes there is cough also
+*[CLS] do you have [MASK] also? [SEP] [MASK] there is [MASK] also;;Sign or Symptom:cough;;umls
+there is also cough
+*[CLS] there is also [MASK];;Sign or Symptom:cough;;umls
+since when?
+there is also cough, since when? it's been a week
+*[CLS] there is also cough, since when? [SEP] it's been [MASK];;Sign or Symptom:cough;;umls
+*[CLS] there is also [MASK], since when? [SEP] it's been a week;;duration:week;;(.* )? it's been a?\s+(?P<Duration>.*( day|week|month|year)?(s)?)(.*)\s*[\W]?(.*)?
+it's been a week
+have you taken any medicine?
+it's been a week, have you taken any medicine? yes
+*[CLS] it's been a week, have you taken any medicine? [SEP] yes;;Pharmacologic Substance:medicine;;umls
+have you taken any medicine before? yes for throat
+*[CLS] have you taken any medicine before? [SEP] yes for throat;;Pharmacologic Substance:medicine, Body Location or Region:throat;;umls
+was it effective? no
+what is the baby's name? XXXX
+*[CLS] what is the [MASK] name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old is he? he is two and_a_half years old
+*[CLS] how old is he? [SEP] he is [MASK] and_a_half years old;;age:two and_a_half years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(and_a_half\s*)?(year|month|day)?(s)?)(.*)?
+what's the matter?
+well, what's the matter? he gets internal fever that occurs in the evening
+*[CLS] well, what's the matter? [SEP] he gets internal fever that occurs in the [MASK];;Finding:fever;;umls
+*[CLS] well, what's the matter? [SEP] he gets internal [MASK] that occurs in the [MASK];;Finding;;umls
+does he daily have fever in the evening? he stays ok during the day?
+yes he stays well during the day
+keeps running
+and has fever in the evening
+*[CLS] and has fever in the [MASK];;Finding:fever;;umls
+*[CLS] and has [MASK] in the [MASK];;Finding;;umls
+yes he stays well during the day, keeps running, and has fever in the evening
+he has diarrhea since two days 
+*[CLS] he has diarrhea since [MASK] days;;Sign or Symptom:diarrhea;;umls
+*[CLS] he has [MASK] since [MASK] days;;duration:two days;;(.*)since[\s+the last|\s+previous]?\s+(?P<Duration>.*(day|week|month|year)(s)?)(.*)\s*[\W]?(.*)?
+he gets sick with diarrhea every two other days
+*[CLS] he gets sick with [MASK] every [MASK] other days;;Sign or Symptom:diarrhea;;umls
+does he gets fever with cold? he has diarrhea since two days , he gets sick with diarrhea every two other days
+ok so he gets diarrhea every two days later 
+does he has loose motion?
+he stays fine for two days
+is sick for next two days
+ok so he gets diarrhea every two days later , does he has loose motion? he stays fine for two days and is sick for next two days
+anything that makes you feel causes more motion? no idea
+does the patient eat bread or not? when he had bread for first time does it caused motion after having it 
+i cannot remember
+he is two and_a_half years old let's give medicine now
+*[CLS] he is [MASK] years old let's give medicine now;;age:two and_a_half years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+*[CLS] he is [MASK] years old let's give medicine now;;Pharmacologic Substance:medicine;;umls
+if the problem of motion occurs again or if the motion continues on and off
+if the problem of motion occurs again or if the motion continues on
+then you have to bring him back for tests for now give him medicines for a week
+*[CLS] then you have to bring him back for tests for now give him medicines for a week;;Pharmacologic Substance:medicine, Laboratory Procedure:tests;;umls
+*[CLS] then you have to bring him back for tests for now give him medicines for a week;;duration:week;;(.* )?for(\s+a)?\s+(?P<Duration>.*( day|week|month|year)(s)?)\s+(.*)?
+if the problem of motion occurs again or if the motion continues on and off, then you have to bring him back for tests for now give him medicines for a week
+he does not sleep peacefully look at his lips they are very dry i do not know what is the issue
+okay i will check
+what is your name? and how old are you?
+18 years old
+*[CLS] [MASK] [MASK] old;;age;; .*(he is|she is|shes)?(?P<Age> \d+ .*)(day|days|years|month|months)?(.*)?
+what is the problem?
+there is cough fever
+*[CLS] there is [MASK] [MASK];;Sign or Symptom:cough,Finding:fever;;umls
+18 years old and what is the problem? there is cough fever and flu
+since three or four days
+*[CLS] since three or four days;;duration:three or four days;;(.*)since[\s+the last|\s+previous]?\s+(?P<Duration>.*(day|week|month|year)(s)?)(.*)\s*[\W]?(.*)?
+it's been three or four days did you take any medicine? yes
+was not that effective? 
+let me see
+show me your throat
+you are having sore throat
+*[CLS] you are having [MASK];;Sign or Symptom:sore throat;;umls
+do you eat outside food?
+show me your throat, you are having sore throat, do you eat outside food? yes
+you have sore throat due to tonsils i am giving medicine for thisl inshallah
+*[CLS] you have sore throat due to tonsils i am giving medicine;;Sign or Symptom:sore throat, Body Part_ Organ_ or Organ Component:tonsils, Pharmacologic Substance:medicine;;umls
+you will be fine
+you have sore throat due to tonsils i am giving medicine for thisl inshallah, you will be fine
+what is the name of the child? XXXX
+*[CLS] what is the name of the [MASK]? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+and how old is? what is the matter?
+he fell down
+he has fallen ,where is the injury
+where is injury 
+he fell down during school
+now complaining that the pain is getting worse
+where is injury , son? he fell down during school and now complaining that the pain is getting worse
+did he faint? no
+he did not vomit
+and did he vomit? no, he did not vomit
+*[CLS] and did he [MASK]? [SEP] [MASK] did not [MASK];;symptoms;;no vomit(.*)? (he|she|the patient) did (?P<Symptom>.*)
+did he feel any jerks? no jerks
+*[CLS] did [MASK] feel any [MASK]? [SEP] [MASK];;Disease or Syndrome:no jerks;;umls
+it does not seem big problem 
+kid do you feel pain while walking
+it does not seem big problem , kid do you feel pain while walking
+walk here 
+all right
+it will be fine i am giving medicines
+*[CLS] it will be fine i am giving medicines;;Pharmacologic Substance:medicines;;umls
+walk here , all right, it will be fine i am giving medicines
+what is the name of the child
+how old is he? 10 years old
+*[CLS] how old is [MASK]? [SEP] [MASK] years old;;age:10 years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+*[CLS] [MASK] years old;;age:10 years;;(he is|she is|shes|hes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(old)?
+he has a fever
+*[CLS] [MASK] has a [MASK];;Finding;;umls
+*[CLS] [MASK] has a fever;;Finding:fever;;umls
+what's wrong with him? he has a fever and cough
+*[CLS] what's wrong with him? [SEP] he has a fever and [MASK];;Sign or Symptom,Finding:fever;;umls
+*[CLS] what's wrong with him? [SEP] he has a [MASK] and cough;;Sign or Symptom:cough,Finding;;umls
+*[CLS] what's wrong with him? [SEP] he has a fever and cough;;Sign or Symptom:cough,Finding:fever;;umls
+*[CLS] what's wrong with him? [SEP] he has a [MASK] and [MASK];;Sign or Symptom,Finding;;umls
+since when have you had a fever? we went on funeral of his aunt there he got sick
+*[CLS] since when have you had a fever? [SEP] we went on funeral of [MASK] there [MASK] got sick;;Sign or Symptom,Finding:fever;;umls
+*[CLS] since when have you had a [MASK]? [SEP] we went [MASK] there [MASK] got sick;;Sign or Symptom;;umls
+does he have cough? cough is mild
+*[CLS] does [MASK] have [MASK]? [SEP] [MASK] is mild;;Sign or Symptom:cough;;umls
+ok kid do you have aches in throat? yes he has a sore throat
+*[CLS] ok kid do you have aches in [MASK]? [SEP] yes [MASK] has a [MASK];;Sign or Symptom:sore throat;;umls
+show me his throat
+he has a sore throat
+*[CLS] he has a [MASK];;Sign or Symptom:sore throat;;umls
+he also has a fever i'm giving him medicines right now
+*[CLS] [MASK] also has a [MASK] i'm giving [MASK] medicines right now;;Finding:fever, Pharmacologic Substance:medicines;;umls
+*[CLS] [MASK] also has a fever i'm giving [MASK] medicines right now;;Finding:fever, Pharmacologic Substance:medicines;;umls
+show me his throat, yes, he has a sore throat, he also has a fever i'm giving him medicines right now
+*[CLS] show me his [MASK], yes, he has a [MASK], he also has a [MASK] i'm giving him medicines right now;;Sign or Symptom:sore throat,Finding:fever, Pharmacologic Substance:medicines;;umls
+start them also give him pulmonol syrup
+*[CLS] start them also give him [MASK] syrup;;Pharmacologic Substance:pulmonol;;umls
+use cold water strips so that fever subsides
+start them also give him pulmonol syrup and use cold water strips so that fever subsides
+understood? ?
+what is the name of kid? XXXX
+*[CLS] what is the name of [MASK]? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old is he? what's wrong with him?
+he has cough
+*[CLS] he has [MASK];;Sign or Symptom:cough;;umls
+flu and cold
+he has cough, flu and cold
+*[CLS] he has [MASK], [MASK] and [MASK];;Sign or Symptom:cough, Disease or Syndrome:flu,Disease or Syndrome:cold;;umls
+*[CLS] [MASK] has cough, flu and cold;;Sign or Symptom:cough, Disease or Syndrome:flu,Disease or Syndrome:cold;;umls
+*[CLS] [MASK] has flu and cold;;Disease or Syndrome:flu,Disease or Syndrome:cold;;umls
+*[CLS] [MASK] has cold;;Disease or Syndrome:cold;;umls
+*[CLS] [MASK] has flu;;Disease or Syndrome:flu;;umls
+both got sick at the same time? does he have fever with chills?
+yes with chills
+cough is more
+accompanied by vomiting
+he is coughing more or less? cough is more, accompanied by vomiting
+*[CLS] he is [MASK] more or less?[SEP] [MASK] is [MASK], accompanied by [MASK];;Sign or Symptom:coughing,Sign or Symptom:vomiting;;umls
+did he vomit while coughing? yes with cough
+*[CLS] did he [MASK] while [MASK]? [SEP] yes with [MASK];;Sign or Symptom:vomit,Sign or Symptom:coughing;;umls
+his throat is sore but don't have that much fever the other one had more fever
+i will give medicines he will be fine
+*[CLS] i will give medicines [MASK] will be fine;;Pharmacologic Substance:medicines;;umls
+all right
+all right, sir
+just born
+child has just been born? yes, just born
+what is his mother's name? baby is boy or girl?
+he is baby boy
+where was he born? he was born at raikot hospital
+he was delivered normally or by operation? born through operation
+did he cry when born? a little bit of crying
+and was he delivered after full weeks? yes
+and mother didn't have any blood pressure sugar during pregnancy? did she?
+there were no water leakage issues before delivery? 
+put the baby here
+i'll check him
+the baby is fine
+just give him mother's milk daily
+*[CLS] just give [MASK] mother's milk [MASK];;Body Substance:mother's milk;;umls
+*[CLS] just give [MASK] mother's milk [MASK];;frequency:daily;;(.* )? (?P<Frequency>((once per |twice per | thrice per |\d+ per )?\s*(hourly|daily|weekly|monthly|yearly|(\d+\s+(hour|day|week|month|year)(s)?))))
+
+i'll check him, the baby is fine, just give him mother's milk daily
+what is the baby's name? XXXX
+*[CLS] what is the [MASK] name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old is he? what is the problem?
+since when has he had a fever? it happened today
+*[CLS] since when has he had a fever? [SEP] it happened [MASK];;Finding:fever;;umls;
+*[CLS] since when has [MASK] had a fever? [SEP] it happened [MASK];;Sign or Symptom:fever;;umls;
+*[CLS] since when has [MASK] had a fever? [SEP] it happened today;;Finding:fever;;umls;
+it happened today
+did he got a cold?
+it happened today, did he got a cold? is there any cough?
+and there is herpes
+and since when has it been there?
+and there is herpes, and since when has it been there? has it been with fever?
+it's already like this and his belly is growing
+it's already like this
+his belly is growing
+no, it's already like this and his belly is growing
+he use to eat but now he's left eating
+does he eats mud? no, he use to eat but now he's left eating
+okay i will give him medicine he will be fine
+*[CLS] okay i will give [MASK] medicine he will be fine;;Pharmacologic Substance:medicines;;umls
+what is your name? XXXX
+*[CLS] what is your name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old are you? what happened?
+you have been bitten? show me?
+have not you seen anything
+is there any mark
+show me?
+is there any mark, show me? is there pain?
+there was no snake or anything? no
+i am giving you one or two injections shots they will cost approx 1 to 2 thousand okay?
+ok, i am giving you one or two injections shots they will cost approx 1 to 2 thousand okay?
+what's your daughters name? XXXX
+*[CLS] what's your [MASK] name? [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+whats her age? she is three years old
+*[CLS] whats [MASK] age? [SEP] she is [MASK] years old;;age:three years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+*[CLS] she is [MASK] years old;;age:three years;;(he is|she is|shes|hes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(old)?
+what is the issue with her health? sir she has high temperature with a bad cough
+*[CLS] what is the issue with her health? [SEP] sir she has high [MASK] with a bad [MASK];;Sign or Symptom:bad cough, Sign or Symptom:temperature;;umls
+how long has she been like this? sir since today
+*[CLS] how long has [MASK] been like this? [SEP] sir since [MASK];;duration;;(.*)how long(.*)?\?(.*)?\s*(this is the|for|since)?\s*(the last|previous)?\s+(?P<Duration>(\w)+\s*(day|week|month|year)(s)?)
+today? has she mentioned having a throat ache?
+she has high fever
+*[CLS] [MASK] has high [MASK];;Finding;;umls
+*[CLS] [MASK] has high fever;;Finding:fever;;umls
+*[CLS] [MASK] has high temperature;;Finding:temperature;;umls
+ok i want her to get two injections
+*[CLS] ok [MASK] want [MASK] to get [MASK] injections;;Therapeutic or Preventive Procedure:injections;;umls
+take her to the children ward and get her those two shots
+*[CLS] take [MASK] to the children ward and get [MASK] shots;;Therapeutic or Preventive Procedure:injections;;umls
+take her to the children ward
+get her those two shots
+*[CLS] get [MASK] [MASK] shots;;Therapeutic or Preventive Procedure:injections;;umls
+rest i'll give her medication for the next five days
+take her to the children ward and get her those two shots, rest i'll give her medication for the next five days
+understood? yes sir
+what's your childs name?
+ok, what's your childs name? XXXX
+*[CLS] ok, what's your [MASK] name? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+ok what's his age? eight year's old
+*[CLS] ok what's [MASK] age? [MASK] [MASK] old;;age;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+*[CLS] [MASK] year old;;age:15 years;;(he is|she is|shes|hes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(old)?
+he has a bad cough
+*[CLS] he has a bad [MASK];;Sign or Symptom:cough;;umls
+high temperature
+whats the issue with his health? he has a bad cough and high temperature
+*[CLS] whats the issue with his health? [SEP] he has a bad [MASK] and high [MASK];;Sign or Symptom:bad cough, Sign or Symptom:high temperature;;umls
+so he has a bad cough
+*[CLS] so he has a bad [MASK];;Sign or Symptom:bad cough;;umls
+high temperature nothing else?
+so he has a bad cough and high temperature nothing else? no there is no other issue
+son please look at me
+he has a little throat ache
+*[CLS] he has a little throat ache;;symptoms:throat ache;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+*[CLS] he has a little throat ache;;Body Location or Region:throat, Sign or Symptom:ache;;umls
+do you have a throat ache? yes
+*[CLS] do you have a throat ache? [SEP] [MASK];;symptoms:throat ache;;(.*)?(he|she|patient|you|i)?(has|have)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+*[CLS] do you have a stomach ache? [SEP] [MASK];;symptoms:stomach ache;;(.*)?(he|she|patient|you|i)?(has|have)?(?P<Symptoms>(stomach ache|bad stomach)(.*)?)
+*[CLS] do you have a body ache? [SEP] [MASK];;symptoms:body ache;;(.*)?(he|she|patient|you|i)?(has|have)?(?P<Symptoms>(body ache)(.*)?)
+*[CLS] do you have a head ache? [SEP] [MASK];;symptoms:head ache;;(.*)?(he|she|patient|you|i)?(has|have)?(?P<Symptoms>(head ache)(.*)?)
+*[CLS] do you have a tooth ache? [SEP] [MASK];;symptoms:tooth ache;;(.*)?(he|she|patient|you|i)?(has|have)?(?P<Symptoms>(tooth ache)(.*)?)
+*[CLS] do you have a [MASK]? [SEP] [MASK];;symptoms:throat ache;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+*[CLS] do you have a throat ache? yes;;Body Location or Region:throat, Sign or Symptom:ache;;umls
+when do you experince high temperature? after school
+ok i'm giving him this medicine inshallah he will get better soon ok
+*[CLS] ok i'm giving [MASK] this medicine he will get better;;Pharmacologic Substance:medicines;;umls
+we have already given him brufen
+*[CLS] we have already given him [MASK];;Pharmacologic Substance:brufen;;umls
+ok...but wont he get any shots? we have already given him brufen and calpol
+*[CLS] but wont he get any shots? we have already given him [MASK] and [MASK];;Pharmacologic Substance:brufen,Pharmacologic Substance:calpol;;umls
+but he wont recover only with brufen
+*[CLS] but he wont recover only with [MASK];;Pharmacologic Substance:brufen;;umls
+but he wont recover only with brufen and calpol alone
+*[CLS] but he wont recover only with [MASK] and [MASK];;Pharmacologic Substance:brufen,Pharmacologic Substance:calpol;;umls
+im prescribing antibiotics with them for the throat ache
+*[CLS] im prescribing antibiotics with them for the throat ache;;Antibiotic:antibiotics,Body Location or Region:throat,Sign or Symptom:ache;;umls
+you have to give them together he'll been fine and if he has high temperature again give brufen after every six hours and put cold strips on his head
+you have to give them together he'll been fine
+if he has high temperature again give brufen after every six hours
+*[CLS] if he has high [MASK] again give [MASK] after every [MASK] hours;;Finding:temerature,Pharmacologic Substance:brufen;;umls
+*[CLS] if he has high [MASK] again give [MASK] after every [MASK] hours;;frequency:every six hours;;(.* )? (?P<Frequency>((once per |twice per | thrice per |\d+ per )?\s*(hourly|daily|weekly|monthly|yearly|(\d+\s+(hour|day|week|month|year)(s)?))))
+put cold strips on his head
+this medicine course is for five days inshallah he will get better soon
+*[CLS] this medicine course is for [MASK] will get better soon;;Pharmacologic Substance:medicine;;umls
+*[CLS] this medicine course is for [MASK] will get better soon;;duration:five days;;(.* )?(since|for)?(\s+the last|\s+previous)?\s+(?P<Duration>.*(day|week|month|year)(s)?)(.*)?\s*[\W]?(.*)?
+you have to give them together he'll been fine and if he has high temperature again give brufen after every six hours and put cold strips on his head, this medicine course is for five days inshallah he will get better soon
+understood? ok
+so tell what's the patients name? XXXX
+*[CLS] so tell what's the [MASK] name? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+what's his age? 8
+*[CLS] what's [MASK] age? [SEP] [MASK];;age:8;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+whats wrong with him? 
+he has a high temperature
+*[CLS] [MASK] has a high temperature;;Sign or Symptom:temperature;;umls
+does he have chest congestion
+*[CLS] [MASK] has a chest congestion;;Disease or Syndrome:chest congestion;;umls
+he has a real bad cough
+*[CLS] [MASK] has a real bad cough;;Sign or Symptom:cough;;umls
+ok since when does he have this cough? since two days
+*[CLS] ok since when does [MASK] have this cough? [SEP] since [Mask] days;;Sign or Symptom:cough;;umls
+*[CLS] ok since when does [MASK] have this cough? [SEP] since [Mask] days;;duration:two days;;(.* )?(since|for)?(\s+the last|\s+previous)?\s+(?P<Duration>.*(day|week|month|year)(s)?)(.*)?\s*[\W]?(.*)?
+ok since the past two days did you give her medicine? it didnt help
+when is the fever high? at night
+*[CLS] when is the fever high? [SEP] at [MASK];;Finding:fever;;umls
+*[CLS] when is the fever high? [SEP] at [MASK];;Sign or Symptom:fever;;umls
+he still has a bit fever and has chest infection
+*[CLS] [MASK] still has a bit [MASK] and has [MASK];;Finding,Disease or Syndrome;;umls
+*[CLS] [MASK] still has a bit fever and has chest infection;;Finding:fever,Disease or Syndrome:chest infection;;umls
+*[CLS] [MASK] still has a bit fever and has chest infection;;Sign or Symptom:fever,Disease or Syndrome;;umls
+*[CLS] [MASK] still has a bit fever and has [MASK];;Sign or Symptom:fever,Disease or Syndrome;;umls
+*[CLS] [MASK] still has a bit fever and has [MASK];;Finding:fever,Disease or Syndrome;;umls
+he still has a bit fever
+*[CLS] he still has a bit fever;;Finding:fever;;umls
+*[CLS] he still has a bit fever;;Sign or Symptom:fever;;umls
+*[CLS] he still has a bit [MASK];;Finding;;umls
+has chest infection
+*[CLS] [MASK] has chest infection;;Disease or Syndrome:chest infection;;umls
+ok i will give him medicine in syrup form if he doesnt feel better i will have to give him injections because he has chest infection.... do you have a nebulizer at home
+*[CLS] ok [MASK] will give [MASK] medicine in [MASK] form if [MASK] doesnt fell better [MASK] will have to give [MASK] injections becuase [MASK] has [MASK]... do [MASK] have a [MASK] at home;;Pharmacologic Substance:medicine, Therapeutic or Preventive Procedure:injections;;umls
+steam machine?
+he still has a bit fever and has chest infection, ok i will give him medicine in syrup form if he doesnt feel better i will have to give him injections because he has chest infection.... do you have a nebulizer at home, steam machine? no
+ok i will prescribe you that if he doesnt get better i will have to give injections
+*[CLS] ok i will prescribe you that if [MASK] doesnt get better [MASK] will have to give injections;;Therapeutic or Preventive Procedure:injections;;umls
+do you have anything other questions? ok thank you
+whats her name? XXXX
+*[CLS] whats [MASK] name? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>.*)
+whats her age? shes 15 years old
+*[CLS] whats [MASK] age? [SEP] [MASK] years old;;age:15 years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+*[CLS] [MASK] year old;;age:15 years;;(he is|she is|shes|hes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(old)?
+what is the issue? she has throat ache
+*[CLS] what is the issue? [SEP] [MASK] has throat ache;;symptoms:throat ache;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+does she have a fever? patients no she does'nt
+do you have pain anywhere else? yes
+*[CLS] do you have [MASK] anywhere else? [SEP] yes;;Sign or Symptom:pain;;umls
+does it hurt here? she just has throat ache
+*[CLS] does it hurt here? [SEP] [MASK] just has [MASK];;symptoms:throat ache;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+does she have a tooth ache or body pain
+*[CLS] does she have a [MASK] or [MASK];;Sign or Symptom:pain,Sign or Symptom:throat ache;;umls
+ok i'm giving medicine for five days... how old is she? fifteen years
+*[CLS] ok i'm giving medicine for [MASK] days. [SEP] how old is [MASK]? [SEP] [MASK] years;;age:fifteen years;;(old|age)(.*)?\? (he is|she is|shes)?(?P<Age>.*)(years|month|day)?(.*)?
+*[CLS] ok i'm giving medicine for [MASK] days. [SEP] how old is [MASK]? [SEP] [MASK] years;;duration:five days;;(.*)?\s+for\s+(?P<Duration>[\w|\d]+\s*(day|week|month|year)?(s)?)(.*)?\s+[\W]?(.*)?
+*[CLS] ok i'm giving medicine for [MASK] days. [SEP] how old is [MASK]? [SEP] [MASK] years;;Pharmacologic Substance:medicine;;umls
+you have to give her panadol three times 
+*[CLS] you have to give her [MASK] [MASK] times;;Pharmacologic Substance:panadol;;umls
+*[CLS] you have to give her [MASK] [MASK] times;;frequency:three times;;(.* )? (?P<Frequency>((once|twice|thrice|one|two|three|four|\d+)?\s*(per|times(.*))\s*(hourly|daily|weekly|monthly|yearly|((hour|day|week|month|year)(s)?))?))
+amoxil tablet three times a day one capsule
+*[CLS] [MASK] tablet [MASK] times a day [MASK] capsule;;Antibiotic:amoxil;;umls
+*[CLS] [MASK] tablet [MASK] times a day [MASK] capsule;;frequency:three times a day;;(.* )? (?P<Frequency>((once|twice|thrice|one|two|three|four|\d+)?\s*(per|times (.*))?\s*(hourly|daily|weekly|monthly|yearly|((hour|day|week|month|year)(s)?))))
+you have to give her panadol three times , amoxil tablet three times a day one capsule
+what's his age? he is six years old
+*[CLS] what's [MASK] age? [SEP] [MASK] is [MASK] year old;;age:six years;;(old|age)(.*)?(\?)\s*(he is|she is|shes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(.*)?
+*[CLS] [MASK] is [MASK] year old;;age:six years;;(he is|she is|shes|hes)?\s*(?P<Age>[\w|\d]+\s*(year|month|day)?(s)?)(old)?
+he has a throat ache fever
+*[CLS] [MASK] has a throat ache fever;;Finding:fever;;umls
+*[CLS] [MASK] has a throat ache fever;;Sign or Symptom:fever;;umls
+*[CLS] [MASK] has a throat ache fever;;symptoms:throat ache;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+sore throat
+whats wrong with him? he has a throat ache fever and sore throat
+*[CLS] whats wrong with [MASK]? [SEP] [MASK] has a [MASK] and [MASK];;Finding:fever,Sign or Symptom:sore throat;;umls
+*[CLS] whats wrong with [MASK]? [SEP] [MASK] has a [MASK] and [MASK];;symptoms:throat ache;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat)(.*)?)
+does he have a flu? any other issue kid?
+i have headache
+*[CLS] i have [MASK];;Sign or Symptom:headache;;umls
+i'll give you medicine you'll get better
+*[CLS] i'll give you medicine you'll get better;;Pharmacologic Substance:medicines;;umls
+whats your childs name? XXXX
+*[CLS] whats your childs [MASK]? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+how old is he? four years old
+*[CLS] how old is [MASK]? [SEP] [MASK] years old;;age:four years;;(old|age)(.*)?\? (he is|she is|shes)?(?P<Age>.*)(years|month|day)?(.*)?
+he fell
+bruised his eye
+*[CLS] bruised [MASK] eye;;Body Part_ Organ_ or Organ Component:eye;;umls
+whats wrong? he fell and bruised his eye
+*[CLS] whats wrong? [MASK] fell and bruised [MASK] eye;;Body Part_ Organ_ or Organ Component:eye;;umls
+ok... he fell and bruised his eye
+*[CLS] ok [MASK] fell and bruised [MASK] eye;;Body Part_ Organ_ or Organ Component:eye;;umls
+ok... he fell
+bruised his eye
+where did he fall from?
+ok... he fell and bruised his eye, where did he fall from? from the house
+did he faint? no
+did he vomit or have seizures
+*[CLS] did he [MASK] or have [MASK];;Sign or Symptom:vomit,Sign or Symptom:seizures;;umls
+take her to the ot to clean the wound
+get an xray show it to me
+*[CLS] get an [MASK] show it to me;;Diagnostic Procedure:xray;;umls
+take her to the ot to clean the wound and get an xray show it to me
+*[CLS] taker [MASK] to the [MASK] to clean the wound and get an xray show it to me;;Diagnostic Procedure:xray;;umls
+get him stitches or go get his eyes checked there is nothing to worry about
+whats his name? XXXX
+*[CLS] whats [MASK] name? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+daughter of sughara begum
+are you the father?
+daughter of sughara begum, are you the father? jee
+when was he born? right now
+is it a girl or a boy
+was she born on the due date
+did she cry when she was born?
+was she born on the due date, did she cry when she was born? yes
+does the mother have diabetes
+*[CLS] does the [MASK] have [MASK];;Disease or Syndrome;;umls
+or blood pressure
+did she cry when she was born
+did the mother suffer from amniotic fluid leak
+*[CLS] did the mother suffer from [MASK];;Finding;;umls
+*[CLS] did the father suffer from [MASK];;Finding;;umls
+did she cry when she was born, did the mother suffer from amniotic fluid leak
+did the mother take any medicine during pregnancy
+yes the ones doctor gave
+ok is this your first child
+? no just this small baby
+is he your first child
+no i have one more daughter
+ok did any of your kids die are the other kids ok
+whats your childs name? XXXX
+*[CLS] whats your [MASK] name? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+whats his age? whats wrong with him?
+fever cough
+fever cough and flu
+he has difficulty drinking milk
+*[CLS] [MASK] has difficulty drinking [MASK];;food:milk,Finding:difficulty drinking;;umls
+he has difficulty drinking milk and breathing
+*[CLS] [MASK] has difficulty [MASK] and [MASK];;food:milk,Finding:difficulty drinking;;umls
+since when does he have these problems? it got worse today
+did you give him any medicine? panadol
+*[CLS] did you give [MASK] any medicine? [SEP] [MASK];;Pharmacologic Substance:panadol;;umls
+he didnt get better? no
+ok i'll check him
+give medicine
+ok i'll check him and give medicine
+*[CLS] ok i'll check [MASK] and give medicine;;Pharmacologic Substance:medicines;;umls
+she was fine till the age of 3 now she has stopped talking
+whats wrong with her? she was fine till the age of 3 now she has stopped talking and walking
+she doesn't talk now was she born normal
+yes she was normal delivery
+did she cry right after she was born? with full strength?
+do you have more kids? no just one daughter
+when did she start sitting
+on her own time
+how many months did she take? when did she start walking?
+at the age of one
+she would walk a little
+fall on her face
+and after that? she would walk a little and fall on her face
+she has had fever before
+*[CLS] she has had [MASK] before;;Finding;;umls
+*[CLS] she has had [MASK] before;;Sign or Symptoms;;umls
+*[CLS] [MASK] has had fever before;;Finding:fever;;umls
+*[CLS] [MASK] has had fever before;;Sign or Symptoms:fever;;umls
+was admitted in the hospital
+did ever have meningitis? she has had fever before and was admitted in the hospital
+since the last three months and now she just says the word papa 
+since the last three months
+now she just says the word papa 
+she would speak properly now she just says the word papa
+when did she stop walking? since the last three months and now she just says the word papa , she would speak properly now she just says the word papa
+ok she was talking fine before now just says papa? did you get any tests done?
+yes doctor zahid had them done
+ok you got this one done
+what about this one?
+ok you got this one done and what about this one? yes got this mri done from pindi but now
+i'm asking if you've got her mri? no
+*[CLS] i'm asking if you've got [MASK]? [SEP] [MASK];;Diagnostic Procedure:mri;;umls
+you have to get her mri done 
+*[CLS] you have to get [MASK] mri done;;Diagnostic Procedure:mri;;umls
+kids in such state have a fever
+*[CLS] [MASK] in such state have a fever before;;Finding:fever;;umls
+*[CLS] [MASK] in such state have a fever before;;Sign or Symptoms:fever;;umls
+you have to get her mri done , kids in such state have a fever
+*[CLS] you have to get [MASK] mri done, [MASK] in such state have a fever;;Diagnostic Procedure:mri, Finding:fever;;umls
+*[CLS] you have to get [MASK] mri done, [MASK] in such state have a fever;;Diagnostic Procedure:mri, Sign or Symptoms:fever;;umls
+she stood on her own a yesterday but she cant do it properly
+starts crying and lifts her feet up
+starts crying
+lifts her feet up
+she stood on her own a yesterday but she cant do it properly, starts crying and lifts her feet up
+doctor no
+i'll give her some multivitamins and you have to get her mri done that the doctor asked for as soon as possible so we find out whats wrong with her brain or are there any changes in it
+i'll give her some multivitamins
+you have to get her mri done that the doctor asked for as soon as possible so we find out whats wrong with her brain or are there any changes in it
+if there is a issue mri will help us figure out
+doctor no, i'll give her some multivitamins and you have to get her mri done that the doctor asked for as soon as possible so we find out whats wrong with her brain or are there any changes in it, if there is a issue mri will help us figure out
+i'll give ou some medicines
+*[CLS] i'll give you some medicines;;Pharmacologic Substance:medicines;;umls
+is there some issue with her legs should we get a xray done? i see her trying to stand up
+are her legs not straight? i'm not sure
+she stands up for a while
+does she stiff her legs? she stands up for a while and falls
+ok i understand what youre tring to say i'll write it down
+get her mri done
+ok i understand what youre tring to say i'll write it down and get her mri done
+ok whats the mothers name? XXXX
+*[CLS] ok whats the mothers [MASK]? [SEP] MASK;;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+was the baby born today? yes
+is it a boy or a girl? was she born through normal delivery or operation
+ok through operation
+where? in a government hospital
+ok in a government hospital
+this is the fourth operation
+ok this is the fourth operation
+did the baby cry... did the baby cry? didnt cry while he was with us
+whats the issue now is he not taking feed? yes yes hes lazy
+hes lazy and wont take feed
+hes lazy
+wont take feed
+ok fill the admission form and take him to the ward above
+ok fill the admission form
+take him to the ward above
+hes lazy and wont take feed, ok fill the admission form and take him to the ward above
+tabeer age 3 months
+*[CLS] [MASK] age [MASK] [MASK];;age;;(.*)?(age)\s*(he is|she is|shes)?\s*(?P<Age>[\w\d]+\s*(day|year|month)?(s)?)\s*(.*)?
+she has some pain dont know where
+*[CLS] [MASK] has some pain dont know where;;Sign or Symptom:pain;;umls
+whats the child name? XXXX age 3 months and she has some pain dont know where
+*[CLS] whats the child [MASK]? [SEP] [MASK] age [MASK] months and [MASK] has some pain dont know where;;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+*[CLS] whats the child [MASK]? [SEP] [MASK] age [MASK] months and [MASK] has some pain dont know where;;age:3 months;;(.*)?what(.*)?\? .*(he is|she is|shes)?(?P<Age> \d+ (day|week|month|day)?(s)?)(.*)?
+it obvious shes a child she wont know
+does she have a stomach ache? she has a fever
+*[CLS] does [MASK] have a [MASK]? [SEP] [MASK] has a [MASK];;Sign or Symptom,Finding;;umls
+*[CLS] does [MASK] have a stomach ache? [SEP] [MASK] has a [MASK];;Sign or Symptom:stomach ache,Finding;;umls
+*[CLS] does [MASK] have a [MASK]? [SEP] [MASK] has a fever;;Finding:fever;;umls
+*[CLS] does [MASK] have a [MASK]? [SEP] [MASK] has a fever;;Sign or Symptom:fever;;umls
+*[CLS] [MASK] has a fever;;Finding:fever;;umls
+*[CLS] [MASK] has a fever;;Sign or Symptom:fever;;umls
+*[CLS] does [MASK] have a stomach ache? [SEP] [MASK] has a fever;;Sign or Symptom:stomach ache,Finding:fever;;umls
+*[CLS] does [MASK] have a stomach ache? [SEP] [MASK] has a fever;;Sign or Symptom:stomach ache,Sign or Symptom:fever;;umls
+does she have a throat ache
+she has a really bad cough
+*[CLS] [MASK] has a really bad [MASK];;Sign or Symptom;;umls
+*[CLS] [MASK] has a really bad cough;;Sign or Symptom:bad cough;;umls
+yes, she has a really bad cough
+*[CLS] yes, [MASK] has a really bad [MASK];;Sign or Symptom:cough;;umls
+ok she has a cough 
+*[CLS] ok [MASK] has a [MASK];;Sign or Symptom:cough;;umls
+*[CLS] ok [MASK] has a cough;;Sign or Symptom;;umls
+ok so i'll give her some medicine
+*[CLS] ok so i'll give [MASK] some medicine;;Pharmacologic Substance:medicines;;umls
+ok she has a cough , ok so i'll give her some medicine
+*[CLS] ok [MASK] has a cough , ok so i'll give [MASK] some medicine;;Sign or Symptom:cough, Pharmacologic Substance:medicines;;umls
+ok i'll check her
+whats wrong with him? was he born today?
+normal delivery or operation? operation
+*[CLS] normal delivery or operation? [SEP] operation;;Therapeutic or Preventive Procedure:operation;;umls
+*[CLS] normal delivery or operation? [SEP] normal delivery;;Therapeutic or Preventive Procedure:normal delivery;;umls
+*[CLS] was the delivery normal? [SEP] yes;;Finding:normal delivery;;umls
+*[CLS] did you have a caesarean section? [SEP] yes;;Therapeutic or Preventive Procedure:caesarean section;;umls
+*[CLS] did you have a caesarean? [SEP] yes;;Therapeutic or Preventive Procedure:caesarean;;umls
+*[CLS] did you have a c-section? [SEP] yes;;Therapeutic or Preventive Procedure:c-section;;umls
+was she born on the due date? yes
+why did the mother have operation? doctor told us there was some problem
+ok ok did she cry when she was born? is there any issue now?
+do you want a routine check up
+yes routine check
+whats his name? XXXX
+*[CLS] whats [MASK] name? [SEP] [MASK];;name:XXXX;;(.*)?what(.*)?name(.*?)\? ((his|her|patient)? name is )?(?P<Name>[\w]+)\s*(age)?[\d]?(.*)
+whats his age? he is 3
+*[CLS] whats [MASK] age? [SEP] he is [MASK];;age:3;;(.*)?(age\?) (he|she|the patient|i)?\s+(is|am)\s+(?P<Age>.*)
+he has flu
+*[CLS] he has [MASK];;Disease or Syndrome:flu;;umls
+what's the issue? he has flu and cough
+*[CLS] what's the issue? [SEP] he has [MASK] and [MASK];;Sign or Symptom:cough;;umls
+*[CLS] what's the issue? [SEP] he has [MASK] and [MASK];;symptoms:flu;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(throat ache|bad throat|sore throat|throat infection|infected throat|flu)(.*)?)
+for how long has he been sick? this is the second day
+*[CLS] for how long has [MASK] been sick? [SEP] this is the [MASK];;duration:second day;;(.*)how long(.*)?\?\s*(this is the|for)?\s*(the last|previous)?\s*(?P<Duration>(\w)+\s*(day|week|month|year)(s)?)
+did you give him any medicine? it didnt help?
+ok i'll check him
+give him medicine
+*[CLS] give [MASK] medicine;;Pharmacologic Substance:medicines;;umls
+ok i'll check him and give him medicine
+*[CLS] ok i'll check [MASK] and give him medicine;;Pharmacologic Substance:medicines;;umls
+yes njab son of zahid
+fourteen month 
+whats the issue?
+whats his age? fourteen month , whats the issue?
+he has loose motion
+*[CLS] he has [MASK];;symptoms:loose motion;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(loose motion|motion|stomach problem)(.*)?)
+he has loose motion and vomiting
+*[CLS] he has [Mask] and [MASK];;Sign or Symptom:vomiting;;umls
+*[CLS] he has [Mask] and [MASK];;symptoms:loose motion;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(loose motion|motion|stomach problem)(.*)?)
+vomiting ,since when?;;Pharmacologic Substance:
+motion and vomiting ,since when? since the last three days
+*[CLS] [MASK] and [MASK], since when? [SEP] since the last [MASK] days;;Sign or Symptom:vomiting;;umls
+*[CLS] [MASK] and [MASK], since when? [SEP] since the last [MASK] days;;symptoms:motion;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(loose motion|motion|stomach problem)(.*)?)
+*[CLS] [MASK] and [MASK], since when? [SEP] since the last [MASK] days;;duration:last three days;;(.* )?since(\s+the last|\s+previous)?\s+(?P<Duration>.*( day|week|month|year)?(s)?)
+she still has vomiting but the motions have stopped
+*[CLS] she still has [MASK] but the [MASK] have stopped;;Sign or Symptom:vomiting,Functional Concept:motions;;umls
+does she have a fever? he has a little temperature look what hes doing
+*[CLS] does she have a [MASK]? he has a little [MASK] look what hes doing;;Sign or Symptom:temperature;;umls
+*[CLS] does [MASK] have a fever? [MASK] has a little temerperature look what hes doing;;Sign or Symptom:temperature;;umls
+*[CLS] does [MASK] have a fever? [MASK] has a little fever look what hes doing;;Sign or Symptom:fever;;umls
+*[CLS] does [MASK] have a fever? [MASK] has a little fever;;Sign or Symptom:fever;;umls
+*[CLS] does [MASK] have a fever? [MASK] has a little fever;;Finding:fever;;umls
+*[CLS] does [MASK] have a fever? [MASK] has a fever;;Sign or Symptom:fever;;umls
+*[CLS] does [MASK] have a fever? [MASK] has a fever;;Finding:fever;;umls
+since when has he been like that? since the last three days
+*[CLS] sice when has he been like that? [SEP] since the last [MASK] days;;duration:last three days;;(.* )?since(\s+the last|\s+previous)?\s+(?P<Duration>.*( day|week|month|year)?(s)?)
+ok since the last three days
+*[CLS] ok since the last [MASK] [MASK];;duration;;(.* )?since(\s+the last|\s+previous)?\s+(?P<Duration>.*( day|week|month|year)?(s)?)
+he doesnt seem fine
+ok since the last three days, he doesnt seem fine
+i think he's dehydrated
+*[CLS] i think he's [MASK];;Disease or Syndrome;;umls
+*[CLS] i think [MASK] is dehydrated;;Disease or Syndrome:dehydrated;;umls
+we would have to admit him
+i'll make the file get the admission form
+take him the floor above
+i'll make the file get the admission form and take him the floor above
+whats the mother's name? yes XXXX
+baby of XXXX
+how old is he?
+baby of XXXX, how old is he? two days old
+*[CLS] baby of XXXX, how old is [MASK]? [SEP] [MASK] days old;;age:two days;;(old|age)(.*)?\? (he is|she is|shes)?(?P<Age>.*)(years|month|day)?(.*)?
+whats the issue
+he has a stomach problem
+*[CLS] he has a [MASK];;symptoms:stomach problem;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(loose motion|motion|stomach problem)(.*)?)
+hes not drinking milk
+*[CLS] [MASK] not drinking [MASK];;food:milk;;umls
+he has a stomach problem and hes not drinking milk
+*[CLS] [MASK] has a [MASK] problem and [MASK] not drinking [MASK];;food:milk;;umls
+*[CLS] [MASK] has a [MASK] problem and [MASK] not drinking [MASK];;symptoms:stomach problem;;(.*)?(he|she|patient)?(has)?(?P<Symptoms>(loose motion|motion|stomach problem)(.*)?)
+ok shes not drinking milk
+*[CLS] ok [MASK] not drinking [MASK];;food:milk;;umls
+since when?
+ok shes not drinking milk, since when? since today
+normal delivery or operation? operation
+ok through operation
+was he born on the due date?
+ok through operation, was he born on the due date? yes sir
+did he cry when he was born? does the mother have sugar or blood pressure?
+did the mother have amniotic fluid during pregnancy? no
+hes not drinking enough milk?
+ok , hes not drinking enough milk? yes sir
+is he not drinking at all? very less
+ok i will check him
+let you know
+ok i will check him and let you know
