@@ -29,5 +29,5 @@ This command will read the data from the Data/raw directory, and produce sequenc
 > python3 extractSentencesFromTranscripts.py -i Data/TestData/transcript* -p Data/TrainingData/transcript_annotated_7.csv -m 0.87 -x
 
 * -m provides a minimum similarity threshold
-* -x is used to select one or more instances with highest similarity. This means, if two instances have a similarity of 0.9, which is the highest, only these two will be selected
+* -x is used to select one or more instances with highest similarity. This means, if two instances have a similarity of 0.9, which is the highest (above the specified threshold of 0.87), only these two will be selected.
 
